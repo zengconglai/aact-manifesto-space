@@ -6,7 +6,7 @@ const AllowedFormats = {
 }
 
 export const bodyPolitics = {
-    artist3: {
+    artist3: {  // hello zeng
         idx: 3, // for internal use
         format: AllowedFormats.Image, // for rendering
         visible: true,
