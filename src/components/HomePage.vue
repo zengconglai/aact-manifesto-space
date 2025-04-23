@@ -2,6 +2,7 @@
 import NavDropdown from '@/components/NavDropdown.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import { ref, onMounted } from 'vue'
+const titleLineOpacity = ref(0);
 const buttonOpacity = ref(0);
 import bgImg from '@/assets/curation-topic1.webp'
 import { useRouter, onBeforeRouteLeave } from 'vue-router'
@@ -23,9 +24,16 @@ onBeforeRouteLeave(() => {
 })
 
 onMounted(() => {
+  // Show first line immediately (with its own transition)
+  setTimeout(() => {
+    titleLineOpacity.value = 1;
+  }, 800); // Small delay for browser to settle
+  
+  
+  // Show button shortly after second line
   setTimeout(() => {
     buttonOpacity.value = 1;
-  }, 500);
+  }, 1600);
 })
 
 </script>
@@ -59,11 +67,11 @@ onMounted(() => {
             <div class="self-start flex items-center justify-center text-ivory max-w-screen">
                 <span class="sr-only">Current Curation</span>
                 <div class="pl-6 md:pl-12 lg:pl-24">
-                    <p class="text-2xl md:text-4xl lg:text-5xl font-medium tracking-wide" :style="{ opacity: buttonOpacity, transition: 'opacity 60ms ease-in' }">The Bitten Peach:</p>
-                    <p class="text-2xl md:text-4xl lg:text-5xl font-medium tracking-wide" :style="{ opacity: buttonOpacity, transition: 'opacity 120ms ease-in' }">
+                    <p class="text-2xl md:text-4xl lg:text-5xl font-medium tracking-wide" :style="{ opacity: titleLineOpacity, transition: 'opacity 800ms ease-in-out' }">The Bitten Peach:</p>
+                    <p class="text-2xl md:text-4xl lg:text-5xl font-medium tracking-wide" :style="{ opacity: titleLineOpacity, transition: 'opacity 800ms ease-in-out' }">
                         Decolonizing Queer Asians 
                     </p>
-                    <button @click="navigateWithFadeOut('/exhibitions')" type="button" :style="{ opacity: buttonOpacity, transition: 'opacity 200ms ease-in' }" class="z-20 mt-6 md:mt-9 lg:mt-12 border border-ivory/60 px-6 py-2 md:py-4 text-ivory/60 hover:border/ivory hover:text-ivory bg-ivory/10 md:text-base text-small">Explore Now</button>
+                    <button @click="navigateWithFadeOut('/exhibitions')" type="button" :style="{ opacity: buttonOpacity, transition: 'opacity 700ms ease-in' }" class="z-20 mt-6 md:mt-9 lg:mt-12 border border-ivory/60 px-6 py-2 md:py-4 text-ivory/60 hover:border/ivory hover:text-ivory bg-ivory/10 md:text-base text-small">Explore Now</button>
                 </div>
             </div>
             <FooterComponent class="text-ivory/70 mb-7" />
