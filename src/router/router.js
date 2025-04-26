@@ -2,7 +2,8 @@ import {createWebHistory, createRouter} from 'vue-router'
 
 import Home from '@/components/HomePage.vue'
 import About from '@/components/AboutPage.vue'
-import Exhibition from '@/components/ExhibitionPage.vue'
+import TheBittenPeachOverview from '@/components/TheBittenPeachOverviewPage.vue'
+import InterwovenIdentitiesOverview from '@/components/InterwovenIdentitiesOverviewPage.vue'
 import Artist from '@/components/ArtistPage.vue'
 import BodyPolitics from '@/components/BodyPoliticsPage.vue'
 import MadeInQueer from '@/components/MadeInQueerPage.vue'
@@ -22,7 +23,11 @@ const router = createRouter({
 		},
 		{
 			path:'/exhibitions',
-			component: Exhibition
+			component: TheBittenPeachOverview
+		},
+		{
+			path:'/exhibition-2',
+			component: InterwovenIdentitiesOverview
 		},
 		{
 			path:'/artists',
