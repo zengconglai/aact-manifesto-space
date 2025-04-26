@@ -78,10 +78,11 @@ watch(activeIndex, () => {
                 </div>
             </div>
             <div class="pt-3.5 hidden lg:flex lg:justify-start lg:items-center pb-6 lg:pb-3">
-                <BreadCrumbs :main-page="false" />
-                <span class="ml-3 text-sm text-stone-500/80">
-                    Body Politics
-                </span>
+                <BreadCrumbs 
+                    :main-page="false"
+                    current-exhibition="The Bitten Peach"
+                    current-section="Body Politics"
+                />
             </div>
             <div class="lg:hidden flex items-center justify-start w-full text-stone-700 text-sm">
                 <a href="/" class="hover:text-stone-900">

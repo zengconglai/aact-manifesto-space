@@ -4,9 +4,9 @@ import FooterComponent from '@/components/FooterComponent.vue'
 import NavDropdown from '@/components/NavDropdown.vue'
 import CarouselComponent from '@/components/CarouselComponent.vue'
 import SmoothScroll from 'smooth-scroll'
-import { madeInQueer } from '@/data/madeInQueer.js';
 import { useScrollObserver } from '@/useScrollObserver.js'
 import { ref, onMounted, computed, watch } from "vue"
+import { rootsAndReconciliation } from '@/data/rootsAndReconciliation.js';
 
 /* eslint-disable no-unused-vars */
 const navItems = ref([]);
@@ -19,21 +19,21 @@ onMounted(() => {
 
     // Create a function to initialize SmoothScroll with an offset
     function initializeSmoothScroll(offset) {
-      if (scroll !== undefined) scroll.destroy(); // Destroy the old instance, if it exists
+        if (scroll !== undefined) scroll.destroy(); // Destroy the old instance, if it exists
 
-      scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 800,
-        offset: offset,
-      });
+        scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            offset: offset,
+        });
     }
 
     // Create a function to adjust offset based on window size
     function adjustOffset() {
-      if (window.innerWidth >= 1024) { // lg screens and above
-        initializeSmoothScroll(136); // your offset for lg screens
-      } else {
-        initializeSmoothScroll(89); // your offset for smaller screens
-      }
+        if (window.innerWidth >= 1024) { // lg screens and above
+            initializeSmoothScroll(136); // your offset for lg screens
+        } else {
+            initializeSmoothScroll(89); // your offset for smaller screens
+        }
     }
     // Initialize SmoothScroll and adjust the offset on page load
     adjustOffset();
@@ -54,7 +54,7 @@ function onIntersection(entry, index) {
     }
 }
 
-const madeInQueerArray = computed(() => Object.values(madeInQueer));
+const rootsAndReconciliationArray = computed(() => Object.values(rootsAndReconciliation));
 
 watch(activeIndex, () => {
     const navbarWidth = navbar.value.offsetWidth;
@@ -80,8 +80,8 @@ watch(activeIndex, () => {
             <div class="pt-3.5 hidden lg:flex lg:justify-start lg:items-center pb-6 lg:pb-3">
                 <BreadCrumbs 
                     :main-page="false"
-                    current-exhibition="The Bitten Peach"
-                    current-section="Made in Queer"
+                    current-exhibition="Interwoven Identities"
+                    current-section="Roots and Reconciliation"
                 />
             </div>
             <div class="lg:hidden flex items-center justify-start w-full text-stone-700 text-sm">
@@ -94,44 +94,44 @@ watch(activeIndex, () => {
                 </a>
                 <p class="mx-2">/</p>
                 <button disabled class="text-stone-600">
-                    Made In Queer
+                    Roots and Reconciliation
                 </button>
             </div>
             <nav ref="navbar" class="bg-ivory t-0 border-b border-stone-600 lg:pb-2 flex space-x-5 overflow-x-auto max-w-screen text-sm scrollbar-hide">
                 <a href="#about" class="nav-item inline-block whitespace-nowrap text-stone-600" :class="{'font-bold text-stone-800': activeIndex == 0, 'text-stone-500': activeIndex != 0 }">
                     About
                 </a>
-                <a v-for="(artist, index) in madeInQueerArray" :key="'nav_item_' + index" :href="`#artist_${index}`" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-bold text-stone-800': activeIndex == index + 1, 'text-stone-500': activeIndex != index + 1 }">
+                <a v-for="(artist, index) in rootsAndReconciliationArray" :key="'nav_item_' + index" :href="`#artist_${index}`" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-semibold text-stone-800': activeIndex == index + 1, 'text-stone-500': activeIndex != index + 1 }">
                     {{artist.artist_name}}
                 </a>
             </nav>
         </div>
         <div class="overflow-scroll scroll-smooth">
             <!-- Banner -->
-            <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner2-url">
+            <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner1-url">
                 <div class="bg-black/50 w-full h-[calc(100vh-89px)] flex flex-col items-start justify-center lg:pl-16 sm:pl-12 pl-6">
                     <p class="lg:leading-6 hidden lg:block lg:text-xl text-ivory/90">
                         The Bitten Peach: Decolonizing Queer Asians
                     </p>
                     <p class="leading-[29px] sm:leading-[44px] lg:leading-[58px] text-ivory/90 font-medium text-2xl sm:text-4xl lg:text-5xl text-ivory text-center">
-                        Made In Queer
+                        Roots and Reconciliation
                     </p>
                 </div>
             </section>
             <!-- Introduction of the sub section -->
             <section id="about" class="h-fit px-6 sm:px-12 lg:px-16">
                 <h2 class="pt-[60px] pb-6 text-xl lg:text-[28px] lg:leading-[34px] font-bold">About</h2>
-<!--                <p class="font-normal text-sm sm:text-base lg:text-xl leading-5 sm:leading-6 lg:leading-8">-->
-<!--                  Made in Queer celebrates artists who explore the discursive or material reflection of relational queerness, where their lived experiences, identities, memories are projected onto physical objects, structures, and our built environment.-->
-<!--                </p>-->
-<!--                <p class="mt-3 lg:mt-9 font-normal text-sm sm:text-base lg:text-xl leading-5 sm:leading-6 lg:leading-8">-->
-<!--                    We are interested in the intersectionality of Asian and queer identities, and the lived experiences of these community members. The current queer cultural canon is predominantly held together by the Western gaze. Confronting the marginalization of Asian communities in contemporary queer culture, AACT invites all artists to share their experiences, existing research, and observations through artworks of various mediums. We want to impose these critical questions: is current queer theory also a colonized project of Eurocentrism? How does queer activism take place in different forms in different communities? How do we decolonize queerness?-->
-<!--                </p>-->
+                <!--                <p class="font-normal text-sm leading-5 lg:text-xl lg:leading-8">-->
+                <!--                    Intrigued by the parallel existence of the peach in both Western and Eastern queer cultures, AACT is curating its inaugural online exhibition - The Bitten Peach: Decolonizing Queerness.-->
+                <!--                </p>-->
+                <!--                <p class="mt-3 lg:mt-9 font-normal text-sm leading-5 lg:text-xl lg:leading-8">-->
+                <!--                    We are interested in the intersectionality of Asian and queer identities, and the lived experiences of these community members. The current queer cultural canon is predominantly held together by the Western gaze. Confronting the marginalization of Asian communities in contemporary queer culture, AACT invites all artists to share their experiences, existing research, and observations through artworks of various mediums. We want to impose these critical questions: is current queer theory also a colonized project of Eurocentrism? How does queer activism take place in different forms in different communities? How do we decolonize queerness?-->
+                <!--                </p>-->
                 <p class="pb-[60px] font-normal text-sm sm:text-base leading-5 sm:leading-6 lg:leading-8">
-                  Made in Queer celebrates artists who explore the discursive or material reflection of relational queerness, where their lived experiences, identities, memories are projected onto physical objects, structures, and our built environment.
+                    Our bodies are battlegrounds. This section assumes our bodies as a measurement of 'Asian-ness' and 'queerness', untangling their complicated relationships with identities, intimacy, self-love, and diasporic experience, etc.
                 </p>
             </section>
-            <div v-for="(artist,index) in madeInQueerArray" :key="index">
+            <div v-for="(artist,index) in rootsAndReconciliationArray" :key="index">
                 <!-- Quote of the Topic -->
                 <section :id="`artist_${index}`" class="bg-bitten h-[calc(100vh-89px)] w-screen bg-cover" :style="artist.quote_bg_url ? { backgroundImage: 'url(' + artist.quote_bg_url + ')' } : {}">
                     <div class="h-full flex flex-col items-center justify-center lg:px-64 md:px-32 px-6 bg-black/70">
@@ -169,8 +169,8 @@ watch(activeIndex, () => {
                     </div>
                     <div v-if="artist.format == 'text'" class="h-full w-full mx-auto">
                         <div class="pb-4 lg:pb-8">
-                            <p class="lg:text-[28px] lg:leading-[34px] text-2xl font-bold">{{artist.collection_title}}</p>
-                            <p class="lg:text-[28px] lg:leading-[34px] text-lg font-light italic">{{artist.artist_name}}</p>
+                            <p class="lg:text-[28px] lg:leading-[34px] text-2xl font-bold">{{artist.artist_name}}</p>
+                            <p class="lg:text-[28px] lg:leading-[34px] text-lg font-light italic">{{artist.collection_title}}</p>
                         </div>
                         <div class="w-full lg:flex lg:justify-between lg:gap-9">
                             <div class="w-full lg:w-2/3">
@@ -198,7 +198,7 @@ watch(activeIndex, () => {
                             <iframe :src="art.file_name" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="w-full h-full" allowfullscreen></iframe>
                         </div>
                         <div class="h-full lg:flex lg:justify-between lg:items-start lg:gap-14 lg:pt-[60px] pt-14">
-                            <div class="w-full lg:w-2/3 min-h-full">
+                            <div class="lg:mt-0 w-full lg:w-2/3 min-h-full">
                                 <span class="font-bold leanding-4 text-base sm:text-lg lg:text-2xl">
                                     About This Collection
                                 </span>
@@ -212,13 +212,13 @@ watch(activeIndex, () => {
                     </div>
                 </div>
             </div>
-            <div class="pt-9 lg:px-16 sm:px-12 px-6">
+            <div class="pt-6 lg:px-16 sm:px-12 px-6">
                 <p class="text-xl lg:text-2xl font-bold mb-6 lg:mb-12 mt-2">Continue To</p>
                 <div class="flex flex-col lg:flex-row">
-                    <div class="bg-url-2 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
-                        <a href="/exhibitions/body-politics">
+                    <div class="bg-url-1 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
+                        <a href="/exhibitions/made-in-queer">
                             <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">BODY <span class="inline lg:block">POLITICS</span></p>
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">MADE IN <span class="inline lg:block">QUEER</span></p>
                             </div>
                         </a>
                     </div>
@@ -236,7 +236,7 @@ watch(activeIndex, () => {
     </div>
 </template>
 <style>
-.banner2-url {
-    background-image: url('../assets/curation-topic1.webp');
+.banner1-url {
+    background-image: url('../assets/curation-topic2.webp');
 }
 </style>

@@ -33,9 +33,9 @@
                 :class="[
                   active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
-                ]" href="/exhibitions"
+                ]" href="/exhibitions/the-bitten-peach"
               >
-                Exhibitions
+                The Bitten Peach
               </a>
             </MenuItem>
             <MenuItem v-slot="{ active }">
@@ -43,9 +43,9 @@
                 :class="[
                   active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
-                ]" href="/exhibition-2"
+                ]" href="/exhibitions/interwoven-identities"
               >
-                Exhibition 2
+                Interwoven Identities
               </a>
             </MenuItem>
 <!--             <MenuItem v-slot="{ active }">

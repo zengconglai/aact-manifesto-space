@@ -2,12 +2,17 @@ import {createWebHistory, createRouter} from 'vue-router'
 
 import Home from '@/components/HomePage.vue'
 import About from '@/components/AboutPage.vue'
+import ExhibitionsOverview from '@/components/ExhibitionsOverviewPage.vue'
 import TheBittenPeachOverview from '@/components/TheBittenPeachOverviewPage.vue'
 import InterwovenIdentitiesOverview from '@/components/InterwovenIdentitiesOverviewPage.vue'
 import Artist from '@/components/ArtistPage.vue'
 import BodyPolitics from '@/components/BodyPoliticsPage.vue'
 import MadeInQueer from '@/components/MadeInQueerPage.vue'
 import YellowPerils from '@/components/YellowPerilsPage.vue'
+import RootsAndReconciliation from '@/components/RootsAndReconciliationPage.vue'
+import WhispersAndEchoes from '@/components/WhispersAndEchoesPage.vue'
+import BetweenTwoWorlds from '@/components/BetweenTwoWorldsPage.vue'
+import ResilienceInCommunity from '@/components/ResilienceInCommunityPage.vue'
 
 const history = createWebHistory();
 const router = createRouter({
@@ -23,10 +28,14 @@ const router = createRouter({
 		},
 		{
 			path:'/exhibitions',
+			component: ExhibitionsOverview
+		},
+		{
+			path:'/exhibitions/the-bitten-peach',
 			component: TheBittenPeachOverview
 		},
 		{
-			path:'/exhibition-2',
+			path:'/exhibitions/interwoven-identities',
 			component: InterwovenIdentitiesOverview
 		},
 		{
@@ -34,17 +43,33 @@ const router = createRouter({
 			component: Artist
 		},
 		{
-			path:'/exhibitions/body-politics',
+			path:'/exhibitions/the-bitten-peach/body-politics',
 			component: BodyPolitics
 		},
 		{
-			path:'/exhibitions/made-in-queer',
+			path:'/exhibitions/the-bitten-peach/made-in-queer',
 			component: MadeInQueer
 		},
 		{
-			path:'/exhibitions/yellow-perils',
+			path:'/exhibitions/the-bitten-peach/yellow-perils',
 			component: YellowPerils
 		},
+		{
+			path:'/exhibitions/interwoven-identities/roots-and-reconciliation',
+			component: RootsAndReconciliation
+		},
+		{
+			path:'/exhibitions/interwoven-identities/whispers-and-echoes',
+			component: WhispersAndEchoes
+		},
+		{
+			path:'/exhibitions/interwoven-identities/between-two-worlds',
+			component: BetweenTwoWorlds
+		},
+		{
+			path:'/exhibitions/interwoven-identities/resilience-in-community',
+			component: ResilienceInCommunity
+		}
 	]
 });
 

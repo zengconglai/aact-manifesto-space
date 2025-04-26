@@ -75,21 +75,21 @@ function onIntersection(entry, index) {
             </div>
             <div id="sections" class="col-span-1 flex flex-col lg:flex-row justify-start min-w-screen h-[calc(100vh-88px)] lg:h-[calc(100vh-64px)] sm:px-6 sm:px-12 lg:px-0 lg:overflow-y-hidden">
                 <div class="h-1/3 lg:h-screen lg:w-1/3 bg-top lg:bg-center bg-cover group bg-url-1">
-                    <a href="/exhibitions/made-in-queer">
+                    <a href="/exhibitions/the-bitten-peach/made-in-queer">
                         <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
                             <p class="text-ivory text-2xl lg:text-4xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100">MADE IN <span class="inline lg:block">QUEER</span></p>
                         </div>
                     </a>
                 </div>
                 <div class="h-1/3 lg:h-screen lg:w-1/3 bg-center bg-cover group bg-url-2">
-                    <a href="/exhibitions/body-politics">
+                    <a href="/exhibitions/the-bitten-peach/body-politics">
                         <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
                             <p class="text-ivory text-2xl lg:text-4xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100">BODY <span class="inline lg:block">POLITICS</span></p>
                         </div>
                     </a>
                 </div>
                 <div class="h-1/3 lg:h-screen lg:w-1/3 bg-top lg:bg-center bg-cover group bg-url-3">
-                    <a href="/exhibitions/yellow-perils">
+                    <a href="/exhibitions/the-bitten-peach/yellow-perils">
                         <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
                             <p class="text-ivory text-2xl lg:text-4xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100">YELLOW <span class="inline lg:block">PERILS</span></p>
                         </div>
