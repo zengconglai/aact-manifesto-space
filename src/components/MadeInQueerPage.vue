@@ -4,7 +4,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 import NavDropdown from '@/components/NavDropdown.vue'
 import CarouselComponent from '@/components/CarouselComponent.vue'
 import SmoothScroll from 'smooth-scroll'
-import { madeInQueer } from '@/madeInQueer.js';
+import { madeInQueer } from '@/data/madeInQueer.js';
 import { useScrollObserver } from '@/useScrollObserver.js'
 import { ref, onMounted, computed, watch } from "vue"
 

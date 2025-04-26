@@ -4,7 +4,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 import NavDropdown from '@/components/NavDropdown.vue'
 import CarouselComponent from '@/components/CarouselComponent.vue'
 import SmoothScroll from 'smooth-scroll'
-import { yellowPerils } from '@/yellowPerils.js';
+import { yellowPerils } from '@/data/yellowPerils.js';
 import { useScrollObserver } from '@/useScrollObserver.js'
 import { ref, onMounted, computed, watch } from "vue"
 
@@ -127,7 +127,7 @@ watch(activeIndex, () => {
                 <!--                    We are interested in the intersectionality of Asian and queer identities, and the lived experiences of these community members. The current queer cultural canon is predominantly held together by the Western gaze. Confronting the marginalization of Asian communities in contemporary queer culture, AACT invites all artists to share their experiences, existing research, and observations through artworks of various mediums. We want to impose these critical questions: is current queer theory also a colonized project of Eurocentrism? How does queer activism take place in different forms in different communities? How do we decolonize queerness?-->
                 <!--                </p>-->
                 <p class="pb-[60px] font-normal text-sm sm:text-base leading-5 sm:leading-6 lg:leading-8">
-                    Yellow Perils examines the contextual racism, self-discovery struggles, homophobia and how they have shaped our nuanced identities. These artworks pursue the concepts of community, inclusion, and artists’ attempts to decolonize their queer Asian bodies.
+                    Yellow Perils examines the contextual racism, self-discovery struggles, homophobia and how they have shaped our nuanced identities. These artworks pursue the concepts of community, inclusion, and artists' attempts to decolonize their queer Asian bodies.
                 </p>
             </section>
             <div v-for="(artist,index) in yellowPerilsArray" :key="index">

@@ -3,7 +3,7 @@ import BreadCrumbs from '@/components/BreadCrumbs.vue'
 import NavDropdown from '@/components/NavDropdown.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 
-import { team } from '@/team.js';
+import { team } from '@/data/team.js';
 import { useScrollObserver } from '@/useScrollObserver.js'
 import { ref, onMounted } from "vue"
 import SmoothScroll from 'smooth-scroll'
