@@ -121,14 +121,10 @@ watch(activeIndex, () => {
             <!-- Introduction of the sub section -->
             <section id="about" class="h-fit px-6 sm:px-12 lg:px-16">
                 <h2 class="pt-[60px] pb-6 text-xl lg:text-[28px] lg:leading-[34px] font-bold">About</h2>
-                <!--                <p class="font-normal text-sm leading-5 lg:text-xl lg:leading-8">-->
-                <!--                    Intrigued by the parallel existence of the peach in both Western and Eastern queer cultures, AACT is curating its inaugural online exhibition - The Bitten Peach: Decolonizing Queerness.-->
-                <!--                </p>-->
-                <!--                <p class="mt-3 lg:mt-9 font-normal text-sm leading-5 lg:text-xl lg:leading-8">-->
-                <!--                    We are interested in the intersectionality of Asian and queer identities, and the lived experiences of these community members. The current queer cultural canon is predominantly held together by the Western gaze. Confronting the marginalization of Asian communities in contemporary queer culture, AACT invites all artists to share their experiences, existing research, and observations through artworks of various mediums. We want to impose these critical questions: is current queer theory also a colonized project of Eurocentrism? How does queer activism take place in different forms in different communities? How do we decolonize queerness?-->
-                <!--                </p>-->
+                    <p class="mt-3 lg:mt-9 font-normal text-sm leading-5 lg:text-xl lg:leading-8">
+                      <i>Roots and Reconciliation</i> explores the delicate balance between heritage and assimilation, offering a profound reflection on the complexity of identity. It invites a deeper understanding of what it means to belong, to adapt, and at times, to feel torn between the past and present. Through the works, we confront the collective memories that are passed down through generations, alongside the intergenerational trauma many continue to carry. The artworks reveal the unspoken weight of history, the invisible scars inherited over time, and the ongoing struggle to reconcile one's cultural roots with the pressures of the contemporary world. It calls on us to reflect on the resilience of culture, the pain of displacement, and the lasting impact of cultural memory.
+                    </p>
                 <p class="pb-[60px] font-normal text-sm sm:text-base leading-5 sm:leading-6 lg:leading-8">
-<!--                    TODO: decription -->
                 </p>
             </section>
             <div v-for="(artist,index) in rootsAndReconciliationArray" :key="index">

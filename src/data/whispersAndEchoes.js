@@ -260,7 +260,7 @@ export const whispersAndEchoes = {
             "simulation of the butchered animal body. Thus, the vessels Of Earth and Flesh reside in between human " +
             "concepts of life and death, while simultaneously defying both. They challenge the preconceived notion of " +
             "the binary of alive and dead, separating themselves from convention, cleanliness and comprehensibility." +
-            "\n" +
+            "\n\n" +
             "Using my vegetarian gaze, the <i>Maple Wood Smoked Bacon Vessel</i> came about as I wondered how the cold " +
             "flesh at the grocery store would sustain as a vase. Through creating this piece, I became a butcher in my " +
             "own right, a role I actively oppose in my daily life. Yet, I took pleasure in cutting, tearing, and " +
@@ -310,7 +310,69 @@ export const whispersAndEchoes = {
                 image: require("@/assets/bg.svg"),
                 content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/PrimaryQinghua.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
+        ],
+    },
+    artist4: {
+        idx: 4,  // for internal use
+        format: AllowedFormats.Image,  // for rendering
+        visible: true,
+        artist_name: "Jamie Woo",
+        ins_handle: [""],
+        quote: '',
+        bio: "I am a writer and mindfulness practitioner and teacher based in Scarborough, and hold a Master of " +
+            "Education from Queen’s University, with a concentration in Indigenous education. My capstone examined the " +
+            "Indigenous language revitalization efforts in Puerto Rico for the Taino people.\n" +
+            "\n" +
+            "My work explores technology, culture, and identity, and increasingly I example how colonization, capitalism, " +
+            "and neuroscience all inform those intersections. My writing has been published in This Magazine, Hyphen, " +
+            "Advocate, Out, Them, and the Globe and Mail. My book, Meet Grindr, which dissected the design of the " +
+            "popular hookup app Grindr and its influence on user behaviour, was nominated for a best non-fiction at the " +
+            "Lambda Literary awards. \n" +
+            "\n" +
+            "I have practiced meditation for 7 years and been a teacher since 2021. I hold an advanced certificate in " +
+            "Trauma-Sensitive Mindfulness (TSM) issued by David A. Treleaven, PhD as well as a certificate in " +
+            "Foundations of Applied Mindfulness Meditation from the University of Toronto.\n" +
+            '\n\n' +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/tofuuday\">@tofuuday</a>",
+        topic_name: "Whispers and Echoes",
+        quote_bg_url: require('@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg'),  // todo add audio
+        collection_title: "Of Earth and Flesh",
+        description: "I am a writer focused on the intersections of culture, technology, and identity. My mindfulness " +
+            "journey, fittingly, began 7 years ago when a friend introduced me to Headspace, the meditation app. \n" +
+            "\n" +
+            "I found interesting the contradictions between the concept of non-striving and an app that needed to " +
+            "growth hack for VC funding. Since then, I've studied mindfulness and meditation more formally, but always " +
+            "with a careful eye on the cultural context: what did it mean to have mindfulness booths in the toxic work " +
+            "environment of the Amazon warehouses? Or revered leaders like Sharon Salzberg sharing heteronormative " +
+            "advice? \n" +
+            "\n" +
+            "I am interested in exploring through words and through a sample meditation what practice could look like " +
+            "rooted in radical love. When being a queer, non-binary third-culture kid doesn’t feel like an exception? \n" +
+            "\n" +
+            "Mindfulness is a reflection on our relationship within ourselves and with the world around us. But too " +
+            "often these practices are normative. Take the practice of a body scan: what then for those of us who do " +
+            "not feel safe in our bodies? This sense of not belonging to one's body is a common one, when you've been " +
+            "told your desires are \"wrong,\" that your skin colour is unworthy.\n" +
+            "\n" +
+            "In trauma-sensitive mindfulness practice, we use the phrase, \"if it is supportive for you,\" because it " +
+            "provides autonomy and agency to the practitioner. Offering modifications and variations is a way of " +
+            "honouring innate wisdom. My essay and meditation would ask: what could be truly supportive for all of us?\n" +
+            "\n" +
+            "See also:\n" +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://hyphenmagazine.com/blog/2017/01/january-nonfiction-birthday-banquet-jaime-woo\">The Birthday Banquet</a>" +
+            "\n" +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.out.com/out-exclusives/2017/1/09/love-black-and-white-love-ourselves-love-all-our-parts\">Love in Black and White: To Love Ourselves Is to Love All of Our Parts</a>" +
+            "\n" +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.kirkusreviews.com/book-reviews/jaime-woo/meet-grindr\">Meet Grindr: How One App Changed the Way We Connect</a>",
+        directory: '/assets/WhispersAndEchoes/EmilyAu',
+        artworks: {
 
+        },
+        slides: [  // todo: check display aspect ratio
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
         ],
     },
 }

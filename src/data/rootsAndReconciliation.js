@@ -342,10 +342,6 @@ export const rootsAndReconciliation = {
                 image: require("@/assets/bg.svg"),
                 content:`<img src="${require("@/assets/RootsAndReconciliation/Lana/SocialDistancing2.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
-            {
-                image: require("@/assets/bg.svg"),
-                content:`<img src="${require("@/assets/RootsAndReconciliation/Lana/TenderScars.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
-            },
         ],
     },
     // artist6:{
