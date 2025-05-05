@@ -4,7 +4,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 import NavDropdown from '@/components/NavDropdown.vue'
 import CarouselComponent from '@/components/CarouselComponent.vue'
 import SmoothScroll from 'smooth-scroll'
-import { bodyPolitics } from '@/data/bodyPolitics.js';
+import { whispersAndEchoes } from '@/data/whispersAndEchoes.js';
 import { useScrollObserver } from '@/useScrollObserver.js'
 import { ref, onMounted, computed, watch } from "vue"
 
@@ -54,7 +54,7 @@ function onIntersection(entry, index) {
     }
 }
 
-const bodyPoliticsArray = computed(() => Object.values(bodyPolitics));
+const whispersAndEchoesArray = computed(() => Object.values(whispersAndEchoes));
 
 watch(activeIndex, () => {
     const navbarWidth = navbar.value.offsetWidth;
@@ -90,18 +90,18 @@ watch(activeIndex, () => {
                 </a>
                 <p class="mx-2">/</p>
                 <a href="/exhibitions" class="hover:text-stone-900">
-                    The Bitten Peach
+                  Interwoven Identities: Interactionality in Asian Mental Health
                 </a>
                 <p class="mx-2">/</p>
                 <button disabled class="text-stone-600">
-                    Body Politics
+                    Whispers and Echoes
                 </button>
             </div>
             <nav ref="navbar" class="bg-ivory t-0 border-b border-stone-600 lg:pb-2 flex space-x-5 overflow-x-auto max-w-screen text-sm scrollbar-hide">
                 <a href="#about" class="nav-item inline-block whitespace-nowrap text-stone-600" :class="{'font-bold text-stone-800': activeIndex == 0, 'text-stone-500': activeIndex != 0 }">
                     About
                 </a>
-                <a v-for="(artist, index) in bodyPoliticsArray" :key="'nav_item_' + index" :href="`#artist_${index}`" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-semibold text-stone-800': activeIndex == index + 1, 'text-stone-500': activeIndex != index + 1 }">
+                <a v-for="(artist, index) in whispersAndEchoesArray" :key="'nav_item_' + index" :href="`#artist_${index}`" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-semibold text-stone-800': activeIndex == index + 1, 'text-stone-500': activeIndex != index + 1 }">
                     {{artist.artist_name}}
                 </a>
             </nav>
@@ -111,10 +111,10 @@ watch(activeIndex, () => {
             <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner1-url">
                 <div class="bg-black/50 w-full h-[calc(100vh-89px)] flex flex-col items-start justify-center lg:pl-16 sm:pl-12 pl-6">
                     <p class="lg:leading-6 hidden lg:block lg:text-xl text-ivory/90">
-                        The Bitten Peach: Decolonizing Queer Asians
+                      Interwoven Identities: Interactionality in Asian Mental Health
                     </p>
                     <p class="leading-[29px] sm:leading-[44px] lg:leading-[58px] text-ivory/90 font-medium text-2xl sm:text-4xl lg:text-5xl text-ivory text-center">
-                        Body Politics
+                        Whispers and Echoes
                     </p>
                 </div>
             </section>
@@ -128,10 +128,10 @@ watch(activeIndex, () => {
                 <!--                    We are interested in the intersectionality of Asian and queer identities, and the lived experiences of these community members. The current queer cultural canon is predominantly held together by the Western gaze. Confronting the marginalization of Asian communities in contemporary queer culture, AACT invites all artists to share their experiences, existing research, and observations through artworks of various mediums. We want to impose these critical questions: is current queer theory also a colonized project of Eurocentrism? How does queer activism take place in different forms in different communities? How do we decolonize queerness?-->
                 <!--                </p>-->
                 <p class="pb-[60px] font-normal text-sm sm:text-base leading-5 sm:leading-6 lg:leading-8">
-                    Our bodies are battlegrounds. This section assumes our bodies as a measurement of 'Asian-ness' and 'queerness', untangling their complicated relationships with identities, intimacy, self-love, and diasporic experience, etc.
+<!-- TODO: add section description -->
                 </p>
             </section>
-            <div v-for="(artist,index) in bodyPoliticsArray" :key="index">
+            <div v-for="(artist,index) in whispersAndEchoesArray" :key="index">
                 <!-- Quote of the Topic -->
                 <section :id="`artist_${index}`" class="bg-bitten h-[calc(100vh-89px)] w-screen bg-cover" :style="artist.quote_bg_url ? { backgroundImage: 'url(' + artist.quote_bg_url + ')' } : {}">
                     <div class="h-full flex flex-col items-center justify-center lg:px-64 md:px-32 px-6 bg-black/70">
