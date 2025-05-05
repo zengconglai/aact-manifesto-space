@@ -90,7 +90,7 @@ watch(activeIndex, () => {
                 </a>
                 <p class="mx-2">/</p>
                 <a href="/exhibitions" class="hover:text-stone-900">
-                    The Bitten Peach
+                  Interwoven Identities: Intersectionality in Asian Mental Health
                 </a>
                 <p class="mx-2">/</p>
                 <button disabled class="text-stone-600">
@@ -111,7 +111,7 @@ watch(activeIndex, () => {
             <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner1-url">
                 <div class="bg-black/50 w-full h-[calc(100vh-89px)] flex flex-col items-start justify-center lg:pl-16 sm:pl-12 pl-6">
                     <p class="lg:leading-6 hidden lg:block lg:text-xl text-ivory/90">
-                        The Bitten Peach: Decolonizing Queer Asians
+                        Interwoven Identities: Intersectionality in Asian Mental Health
                     </p>
                     <p class="leading-[29px] sm:leading-[44px] lg:leading-[58px] text-ivory/90 font-medium text-2xl sm:text-4xl lg:text-5xl text-ivory text-center">
                         Roots and Reconciliation
@@ -128,7 +128,7 @@ watch(activeIndex, () => {
                 <!--                    We are interested in the intersectionality of Asian and queer identities, and the lived experiences of these community members. The current queer cultural canon is predominantly held together by the Western gaze. Confronting the marginalization of Asian communities in contemporary queer culture, AACT invites all artists to share their experiences, existing research, and observations through artworks of various mediums. We want to impose these critical questions: is current queer theory also a colonized project of Eurocentrism? How does queer activism take place in different forms in different communities? How do we decolonize queerness?-->
                 <!--                </p>-->
                 <p class="pb-[60px] font-normal text-sm sm:text-base leading-5 sm:leading-6 lg:leading-8">
-                    Our bodies are battlegrounds. This section assumes our bodies as a measurement of 'Asian-ness' and 'queerness', untangling their complicated relationships with identities, intimacy, self-love, and diasporic experience, etc.
+<!--                    TODO: decription -->
                 </p>
             </section>
             <div v-for="(artist,index) in rootsAndReconciliationArray" :key="index">
