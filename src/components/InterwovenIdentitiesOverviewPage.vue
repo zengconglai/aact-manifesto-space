@@ -47,7 +47,11 @@ function onIntersection(entry, index) {
                 </a>
                 <span class="mx-3">/</span>
                 <a href="/exhibitions">
-                    The Bitten Peach
+                    Exhibitions
+                </a>
+                <span class="mx-3">/</span>
+                <a href="/exhibitions/interwoven-identities">
+                    Interwoven Identities
                 </a>
             </div>
             <ul class="mx-6 sm:mx-12 lg:mx-24 lg:hidden t-0 border-b border-stone-600 flex space-x-3 overflow-x-auto max-w-screen text-sm">

@@ -72,7 +72,7 @@ onMounted(() => {
                     <p class="text-xl md:text-2xl lg:text-3xl font-light tracking-wide" :style="{ opacity: titleLineOpacity, transition: 'opacity 800ms ease-in-out' }">
                         INTERSECTIONALITY IN ASIAN MENTAL HEALTH
                     </p>
-                    <button @click="navigateWithFadeOut('/exhibitions/interwoven-identities')" type="button" :style="{ opacity: buttonOpacity, transition: 'opacity 700ms ease-in' }" class="z-20 mt-6 md:mt-9 lg:mt-12 border border-ivory/60 px-6 py-2 md:py-4 text-ivory/60 hover:border/ivory hover:text-ivory bg-ivory/10 md:text-base text-small">Explore Now</button>
+                    <button @click="navigateWithFadeOut('/exhibitions/interwoven-identities')" type="button" :style="{ opacity: buttonOpacity, transition: 'opacity 700ms ease-in' }" class="z-20 mt-6 md:mt-9 lg:mt-12 border border-ivory/60 px-6 py-2 md:py-4 text-black/60 hover:border/ivory hover:text-ivory bg-ivory/50 md:text-base text-small">Explore Now</button>
                 </div>
             </div>
             <FooterComponent class="text-ivory/70 mb-7" />

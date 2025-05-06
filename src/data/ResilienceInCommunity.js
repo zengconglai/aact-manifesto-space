@@ -31,7 +31,7 @@ export const ResilienceInCommunity = {
              "\n" +
              "Our physical relationships with our elders are impermanent, making the knowledge and histories they hold vulnerable. This work reflects on what it looks like to reconnect to culture by creating and nurturing intergenerational sharing spaces. How do we hold onto what we have learned, and how do we embody that knowledge moving forward? \n" +
              "\n" +
-             "In this second iteration of the previous work Rewriting Reconnections (2022), this piece documents all my yé-yé's grandchildren learning how to write their Chinese names. He guides our brush strokes with his own hand, passing down familial and cultural knowledge. \n",
+             "In this second iteration of the previous work <em>Rewriting Reconnections</em> (2022), this piece documents all my yé-yé's grandchildren learning how to write their Chinese names. He guides our brush strokes with his own hand, passing down familial and cultural knowledge. \n",
         directory: '/assets/ResilienceInCommunity/Aysia',
         artworks: {
             art1: {
@@ -140,6 +140,7 @@ export const ResilienceInCommunity = {
         description: 
             "<em>Time Heals All Wounds</em>\n" + 
             "I opened this message at one of the darkest points of my life. I knew that fortune cookies are mass-produced but I hoped desperately that it was true.  The process of enlarging and hand-embroidering this piece was a way of personalizing and preserving the message that I received. \n" +
+            '\n' +
             "My practice is process-oriented and often labour-intensive because I use it to process my own thoughts and feelings. The making is therapeutic, and the output often speaks to issues of mental health. While I was born in Toronto, my parents immigrated from Hong Kong. Cultural stigma and intergenerational dynamics are at play when it comes to mental health and my work. In Chinese culture, we don’t express our feelings. Being overly emotional incites shame on the individual and awkwardness on the observer. Life is about working hard, being studious and successful and emotions get in the way of this. I cannot speak openly about mental health because it’s considered a weakness or even an insult. “It’s just the rituals that they have to go through” or “They’re just a nervous person” or “They are always this negative.” Through my work, I can “speak” a visual language that hopefully opens up a verbal dialogue about mental health and wellness. \n",
         directory: '/assets/ResilienceInCommunity/Cherie',
         artworks: {
@@ -156,5 +157,33 @@ export const ResilienceInCommunity = {
                 content:`<img src="${require("@/assets/ResilienceInCommunity/Cherie/Time-Heals-All-Wounds.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
         ],
+    },
+    artist4:{
+        idx: 4,  // for internal use
+        format: AllowedFormats.Video,  // for rendering
+        visible: true,
+        artist_name: "Teresa Chan",
+        ins_handle: ["@7eresa_storyteller"],
+        quote: '',
+        bio: 'Cherie is a multi-media storyteller who works in textiles, crafting material, and found objects.  She uses techniques like sewing, quilting, embroidery and beading to create works that intersect painting, textiles, and sculpture.  As a second-generation Chinese Canadian, her work focuses on motherhood and self, materiality, and mental health.  Two recent residencies in Oaxaca, Mexico and Chiang Mai, Thailand continue to influence Cherie’s work.  Cherie’s work has been featured in over 20 group shows.  Her achievements have been recognized in the form of merit scholarships and by the Government of Canada.  After completing her BFA in Drawing and Painting at OCAD University, Cherie will pursue an MA in Textiles at the Royal College of Art (London, September 2025).' +
+        '\n\n' +
+         "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/7eresa_storyteller/\">@7eresa_storyteller</a>",
+        topic_name: "Roots and Reconciliation",
+        quote_bg_url: require('@/assets/ResilienceInCommunity/Teresa/Mind-Full-Ness.jpg'),
+        collection_title: "",
+        
+        description: 
+            "As a newcomer from Hong Kong, moving to Canada is like kayaking alone and navigating through turbulence to an imaginary destination. I want to explore ‘Cultural Narratives and Representation’ and ‘Art and Mental Health’. As growing up in a Japanese Buddhist family with a tradition of suppressing emotions to achieve harmonious relationships, I attempt to connect with nature to heal from trauma. Since the 2019 protest movement and pandemic, suicide cases in Hong Kong have been increasing at an alarming rate. Reminding someone to drink water (see this and drink water, 見字飲水) means telling them to take better care of themselves. The famous martial arts star Bruce Lee’s quote, “Empty your mind. Be formless, shapeless...Be water, my friend,” has become influential in Hong Kong culture. However, it also brings out the feeling of helplessness. \n" +
+           '\n' +
+            "After moving to Tkaronto/Toronto in 2022, I started to practice suminagashi (Japanese paper marbling) as a way of collaborating with water to embody Bruce Lee’s philosophy. Suminagashi is a method of decorative printing that can be traced back to 12th-century China and Japan. It was also a technique practiced by monks. Making concentric circles by dipping bushes into the water’s surface requires a mind-body connection, similar to the Buddhist zazen process. In the culture I grew up in, I was always asked to hide my emotions and avoid disturbing others. While presenting the beauty of Zen through paper marbling, the repeating black circles represent uncontrollable and recurring thoughts, carrying a hint of oppressiveness. I am silent, but let water speak. \n",
+        directory: '/assets/ResilienceInCommunity/Teresa',
+        artworks: {
+            art1: {
+                name: "Mind-Full-Ness",
+                year: '2024',
+                medium: "Digital Video",
+                file_name: "https://www.youtube.com/embed/jYe9z_whYg0",
+            },
+        },
     }
 }
