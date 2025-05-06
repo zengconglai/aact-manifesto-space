@@ -56,6 +56,37 @@ export const BetweenTwoWorlds = {
         idx: 2,  // for internal use
         format: AllowedFormats.Image,  // for rendering
         visible: true,
+        artist_name: "Jayasree Koppayil Gopalakrishnan",
+        ins_handle: [""],
+        quote: '"',
+        bio: 'Jayasree is a Canadian permanent resident originally from Kerala, India. She lives with her family in Mississauga since 2023. Since childhood, She\'s been deeply passionate about painting and visual arts, participating in various competitions and events at both state and national levels during her school years. Actively involved in the creation of school magazines, her affinity for visual arts and design led her to pursue a Bachelor\'s degree in Architecture. In college, her sketches depicting her travel experiences in Delhi were featured in the 2011 college magazine. After completing her Architecture degree in 2010, she pursued a Master\'s degree in design with a focus on industrial design, graduating in 2013. Driven by her interest in design, she has chosen user experience and product design as her primary career path, while continuing to cultivate her passion for visual arts as a dedicated hobby.',
+        topic_name: "Roots and Reconciliation",
+        quote_bg_url: require("@/assets/BetweenTwoWorlds/Jayasree/Veiled-Eyes.jpeg"),
+        collection_title: "",
+        
+        description: 
+            "<em>Veiled Eyes</em>\n" + 
+            "The artwork portrays the psychological strain that arises when a woman from an eastern nation, such as India, attempts to establish a life for herself in a western nation. The social and emotional ideals have entrapped her. She is always stressed out and frequently gets lost in her thoughts. She shields her eyes and can't see the color and life around her. \n",
+        directory: '/assets/BetweenTwoWorlds/Jayasree',
+        artworks: {
+            art1: {
+                name: "Veiled Eyes",
+                year: '2024',
+                medium: "Oil on Canvas panel",
+                file_name: require("@/assets/BetweenTwoWorlds/Jayasree/Veiled-Eyes.jpeg"),
+            },
+        },
+        slides:[
+            {
+                image: require("@/assets/bg.svg"),
+                content:`<img src="${require("@/assets/BetweenTwoWorlds/Jayasree/Veiled-Eyes.jpeg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+        ],
+    },
+    artist3:{
+        idx: 3,  // for internal use
+        format: AllowedFormats.Image,  // for rendering
+        visible: true,
         artist_name: "Phuong Nguyen",
         ins_handle: ["@toomanyphuongnguyens"],
         quote: 'By conceptualizing the image of a porcelain vase into a portrait of a person, the imagery of porcelain in fragments, with broken lines, and repairs using twine, become the fragments of a person who has been broken and reassembled.',
@@ -102,8 +133,8 @@ export const BetweenTwoWorlds = {
             },
         ],
     },
-    artist3:{
-        idx: 3,  // for internal use
+    artist4:{
+        idx: 4,  // for internal use
         format: AllowedFormats.Image,  // for rendering
         visible: true,
         artist_name: "Reginald Balanga",

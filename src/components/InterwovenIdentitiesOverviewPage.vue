@@ -47,6 +47,10 @@ function onIntersection(entry, index) {
                 </a>
                 <span class="mx-3">/</span>
                 <a href="/exhibitions">
+                    Exhibitions
+                </a>
+                <span class="mx-3">/</span>
+                <a href="/exhibitions/interwoven-identities">
                     Interwoven Identities
                 </a>
             </div>
@@ -59,23 +63,20 @@ function onIntersection(entry, index) {
         <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-start lg:h-[calc(100vh-64px)] mx-auto">
             <div id="about" class="lg:h-full col-span-1 px-6 sm:px-12 lg:px-16 flex flex-col lg:overflow-y-scroll pb-24 lg:pb-0">
                 <h1 class="mt-2 sm:mt-4 md:mt-6 lg:mt-16 text-3xl lg:text-4xl font-medium text-left">Interwoven Identities:</h1>
-                <h1 class="mt-1 text-3xl lg:text-4xl font-medium text-left">Unraveling Diaspora Narratives</h1>
+                <h1 class="mt-1 text-3xl lg:text-4xl font-medium text-left">Intersectionality in Asian Mental Health</h1>
                 <p class="text-base font-normal mt-3">May 2025</p>
                 <p class="text-2xl mt-12 mb-6">
-                    MANIFESTO SPACE presents <span class="font-semibold italic">Interwoven Identities: Unraveling Diaspora Narratives</span>, a group exhibition curated by Emily Gong, Carol Chen, and Shengyu Cai.
+                    MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">Interwoven Identities: Intersectionality in Asian Mental Health</span>, a group exhibition curated by Carol Chen.
                 </p>
                 <div class="flex flex-col space-y-6 leading-6 text-left text-sm sm:text-base">
                     <p class="font-normal">
-                        <span class="font-semibold italic">Interwoven Identities: Unraveling Diaspora Narratives</span> is a curatorial project that explores the intersectionality of Asian identities and mental health issues through various artistic mediums.
+                        We are all shaped by the stories we carry.
                     </p>
                     <p class="font-normal">
-                      We are all shaped by the stories we carry.
+                        Our identities are not defined by the clothes we wear, the way we speak, or the company we keep. Rather, they are interwoven whether consciously or unconsciously with memories, values, and experiences passed down through generations. These connections shape how we see ourselves and how we engage with the world around us.
                     </p>
                     <p class="font-normal">
-                      Our identities are not defined by the clothes we wear, the way we speak, or the company we keep. Rather, they are interwoven whether consciously or unconsciously with memories, values, and experiences passed down through generations. These connections shape how we see ourselves and how we engage with the world around us.
-                    </p>
-                    <p class="font-normal">
-                      For many in Asian diaspora communities, these inherited narratives profoundly influence our mental well-being. Cultural values, family expectations, and social norms can foster strength and resilience but can also impose silence and restriction. While our inner struggles may feel deeply personal, they are often shaped by broader, complex sociocultural forces.
+                        For many in Asian diaspora communities, these inherited narratives profoundly influence our mental well-being. Cultural values, family expectations, and social norms can foster strength and resilience but can also impose silence and restriction. While our inner struggles may feel deeply personal, they are often shaped by broader, complex sociocultural forces.
                     </p>
                 </div>
             </div>
@@ -83,14 +84,14 @@ function onIntersection(entry, index) {
                 <div class="h-1/4 lg:h-1/4 w-full bg-top lg:bg-center bg-cover group bg-url-1">
                     <a href="/exhibitions/interwoven-identities/roots-and-reconciliation">
                         <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
-                            <p class="text-gray-700 text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">ROOTS AND RECONCILIATION</p>
+                            <p class="text-ivory text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">ROOTS AND RECONCILIATION</p>
                         </div>
                     </a>
                 </div>
                 <div class="h-1/4 lg:h-1/4 w-full bg-center bg-cover group bg-url-2">
                     <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
                         <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
-                            <p class="text-gray-700 text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">WHISPERS AND ECHOES</p>
+                            <p class="text-ivory text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">WHISPERS AND ECHOES</p>
                         </div>
                     </a>
                 </div>
@@ -115,18 +116,18 @@ function onIntersection(entry, index) {
 </template>
 <style>
 .bg-url-1 {
-    background-image: url('../assets/RootsAndReconciliation/Geoff/install2023_spillsII_closeupA.jpg');
+    background-image: url('../assets/Interwoven-Overview/Roots.jpg');
 }
 
 .bg-url-2 {
-    background-image: url('../assets/WhispersAndEchoes/Vivek/Niche.jpg');
+    background-image: url('../assets/Interwoven-Overview/Whisper.jpg');
 }
 
 .bg-url-3 {
-    background-image: url('../assets/curation-topic3.webp');
+    background-image: url('../assets/Interwoven-Overview/Between.jpg');
 }
 
 .bg-url-4 {
-    background-image: url('../assets/curation-topic4.webp');
+    background-image: url('../assets/Interwoven-Overview/Resilience.jpg');
 }
 </style>
