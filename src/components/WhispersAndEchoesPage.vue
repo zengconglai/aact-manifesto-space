@@ -108,7 +108,7 @@ watch(activeIndex, () => {
         </div>
         <div class="overflow-scroll scroll-smooth">
             <!-- Banner -->
-            <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner1-url">
+            <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner5-url">
                 <div class="bg-black/50 w-full h-[calc(100vh-89px)] flex flex-col items-start justify-center lg:pl-16 sm:pl-12 pl-6">
                     <p class="lg:leading-6 hidden lg:block lg:text-xl text-ivory/90">
                       Interwoven Identities: Intersectionality in Asian Mental Health
@@ -211,17 +211,24 @@ watch(activeIndex, () => {
             <div class="pt-6 lg:px-16 sm:px-12 px-6">
                 <p class="text-xl lg:text-2xl font-bold mb-6 lg:mb-12 mt-2">Continue To</p>
                 <div class="flex flex-col lg:flex-row">
-                    <div class="bg-url-1 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
-                        <a href="/exhibitions/made-in-queer">
+                    <div class="bg-url-1 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
+                        <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
                             <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">MADE IN <span class="inline lg:block">QUEER</span></p>
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">ROOTS AND <span class="inline lg:block">RECONCILIATION</span></p>
                             </div>
                         </a>
                     </div>
-                    <div class="bg-url-3 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
-                        <a href="/exhibitions/yellow-perils">
+                    <div class="bg-url-3 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
+                        <a href="/exhibitions/interwoven-identities/between-two-worlds">
                             <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">YELLOW <span class="inline lg:block">PERILS</span></p>
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">BETWEEN TWO <span class="inline lg:block">WORLDS</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-url-4 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
+                        <a href="/exhibitions/interwoven-identities/resilience-in-community">
+                            <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">RESILIENCE IN <span class="inline lg:block">COMMUNITY</span></p>
                             </div>
                         </a>
                     </div>
@@ -232,7 +239,7 @@ watch(activeIndex, () => {
     </div>
 </template>
 <style>
-.banner1-url {
-    background-image: url('../assets/curation-topic2.webp');
+.banner5-url {
+    background-image: url('../assets/Interwoven-Overview/Whisper.jpg');
 }
 </style>

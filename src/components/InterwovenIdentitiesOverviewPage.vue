@@ -58,18 +58,21 @@ function onIntersection(entry, index) {
         <!-- end of navigation -->
         <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-start lg:h-[calc(100vh-64px)] mx-auto">
             <div id="about" class="lg:h-full col-span-1 px-6 sm:px-12 lg:px-16 flex flex-col lg:overflow-y-scroll pb-24 lg:pb-0">
-                <h1 class="mt-2 sm:mt-4 md:mt-6 lg:mt-16 text-3xl lg:text-4xl font-medium text-left">The Bitten Peach:</h1>
-                <h1 class="mt-1 text-3xl lg:text-4xl font-medium text-left">Decolonizing Queer Asians</h1>
-                <p class="text-base font-normal mt-3">May 2023</p>
+                <h1 class="mt-2 sm:mt-4 md:mt-6 lg:mt-16 text-3xl lg:text-4xl font-medium text-left">Interwoven Identities:</h1>
+                <h1 class="mt-1 text-3xl lg:text-4xl font-medium text-left">Intersectionality in Asian Mental Health</h1>
+                <p class="text-base font-normal mt-3">May 2025</p>
                 <p class="text-2xl mt-12 mb-6">
-                    MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">The Bitten Peach: Decolonizing Queer Asians</span>, a group exhibition curated by Shengyu Cai.
+                    MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">Interwoven Identities: Intersectionality in Asian Mental Health</span>, a group exhibition curated by Carol Chen.
                 </p>
                 <div class="flex flex-col space-y-6 leading-6 text-left text-sm sm:text-base">
                     <p class="font-normal">
-                        <span class="font-semibold italic">The Bitten Peach: Decolonizing Queer Asians</span> is a curatorial project that explores the intersectionality of Asian and queer identities through various artistic mediums.
+                        We are all shaped by the stories we carry.
                     </p>
                     <p class="font-normal">
-                        Intrigued by the parallel existence of the <a class="font-medium text-bitten/80 hover:text-bitten" href="/exhibitions/made-in-queer#artist_5">peach</a> in both Western and Eastern queer cultures, this project seeks to confront the marginalization of Asian communities in contemporary queer culture. The exhibition raises critical questions about the current queer cultural canon, which is predominantly held together by the Western gaze. By bringing together artworks that address the lived experiences of Asian and queer community members, this project creates a platform that celebrates diversity and promotes a deeper understanding of the complex intersections of identity. Artists contribute their experiences, existing research, and observations through artworks of various mediums, aiming to challenge the Eurocentric colonization of queer theory and explore how queer activism manifests in different forms within different communities. The goal is to initiate a process of decolonizing queerness and fostering a more inclusive and diverse understanding of queer identities.
+                        Our identities are not defined by the clothes we wear, the way we speak, or the company we keep. Rather, they are interwoven whether consciously or unconsciously with memories, values, and experiences passed down through generations. These connections shape how we see ourselves and how we engage with the world around us.
+                    </p>
+                    <p class="font-normal">
+                        For many in Asian diaspora communities, these inherited narratives profoundly influence our mental well-being. Cultural values, family expectations, and social norms can foster strength and resilience but can also impose silence and restriction. While our inner struggles may feel deeply personal, they are often shaped by broader, complex sociocultural forces.
                     </p>
                 </div>
             </div>
@@ -109,18 +112,18 @@ function onIntersection(entry, index) {
 </template>
 <style>
 .bg-url-1 {
-    background-image: url('../assets/curation-topic1.webp');
+    background-image: url('../assets/Interwoven-Overview/Roots.jpg');
 }
 
 .bg-url-2 {
-    background-image: url('../assets/curation-topic2.webp');
+    background-image: url('../assets/Interwoven-Overview/Whisper.jpg');
 }
 
 .bg-url-3 {
-    background-image: url('../assets/curation-topic3.webp');
+    background-image: url('../assets/Interwoven-Overview/Between.jpg');
 }
 
 .bg-url-4 {
-    background-image: url('../assets/curation-topic4.webp');
+    background-image: url('../assets/Interwoven-Overview/Resilience.jpg');
 }
 </style>

@@ -108,7 +108,7 @@ watch(activeIndex, () => {
         </div>
         <div class="overflow-scroll scroll-smooth">
             <!-- Banner -->
-            <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner1-url">
+            <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner6-url">
                 <div class="bg-black/50 w-full h-[calc(100vh-89px)] flex flex-col items-start justify-center lg:pl-16 sm:pl-12 pl-6">
                     <p class="lg:leading-6 hidden lg:block lg:text-xl text-ivory/90">
                         Interwoven Identities
@@ -128,7 +128,7 @@ watch(activeIndex, () => {
                 <!--                    We are interested in the intersectionality of Asian and queer identities, and the lived experiences of these community members. The current queer cultural canon is predominantly held together by the Western gaze. Confronting the marginalization of Asian communities in contemporary queer culture, AACT invites all artists to share their experiences, existing research, and observations through artworks of various mediums. We want to impose these critical questions: is current queer theory also a colonized project of Eurocentrism? How does queer activism take place in different forms in different communities? How do we decolonize queerness?-->
                 <!--                </p>-->
                 <p class="pb-[60px] font-normal text-sm sm:text-base leading-5 sm:leading-6 lg:leading-8">
-                    Between Two Worlds explores the ways in which Asian queer communities build and maintain resilience through collective support, cultural preservation, and mutual aid. This section examines how these communities navigate challenges while creating spaces of belonging and empowerment.
+                    <i>Between Two Worlds</i> explores the profound psychological effects of displacement, nostalgia, and cultural dissonance, shedding light on the emotional complexities of navigating between worlds. The artworks delve into themes of homesickness, multiple identities, and the often-unseen emotional toll of navigating between environments, offer a glimpse into the daily negotiations of those in between two worlds.
                 </p>
             </section>
             <div v-for="(artist,index) in betweenTwoWorldsArray" :key="index">
@@ -215,17 +215,24 @@ watch(activeIndex, () => {
             <div class="pt-6 lg:px-16 sm:px-12 px-6">
                 <p class="text-xl lg:text-2xl font-bold mb-6 lg:mb-12 mt-2">Continue To</p>
                 <div class="flex flex-col lg:flex-row">
-                    <div class="w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover" style="background-image: url('../assets/BetweenTwoWorlds/Reginald/Imagined-Ricefields-1.jpeg')">
-                        <a href="/exhibitions/interwoven-identities/body-politics">
+                    <div class="bg-url-1 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
+                        <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
                             <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl lg:leading-[44px]">BODY <span class="inline lg:block">POLITICS</span></p>
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">ROOTS AND <span class="inline lg:block">RECONCILIATION</span></p>
                             </div>
                         </a>
                     </div>
-                    <div class="w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover" style="background-image: url('../assets/BetweenTwoWorlds/Reginald/Imagined-Ricefields-1.jpeg')">
-                        <a href="/exhibitions/interwoven-identities/roots-and-reconciliation">
+                    <div class="bg-url-2 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
+                        <a href="/exhibitions/interwoven-identities/between-two-worlds">
                             <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl lg:leading-[44px]">ROOTS & <span class="inline lg:block">RECONCILIATION</span></p>
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">WHISPERS AND <span class="inline lg:block">ECHOES</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-url-4 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
+                        <a href="/exhibitions/interwoven-identities/resilience-in-community">
+                            <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">RESILIENCE IN <span class="inline lg:block">COMMUNITY</span></p>
                             </div>
                         </a>
                     </div>
@@ -236,7 +243,7 @@ watch(activeIndex, () => {
     </div>
 </template>
 <style>
-.banner1-url {
-    background-image: url('../assets/BetweenTwoWorlds/Reginald/Imagined-Ricefields-1.jpeg');
+.banner6-url {
+    background-image: url('../assets/Interwoven-Overview/Between.jpg');
 }
 </style>

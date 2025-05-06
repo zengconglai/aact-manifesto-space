@@ -10,12 +10,12 @@ export const ResilienceInCommunity = {
         format: AllowedFormats.Image,  // for rendering
         visible: true,
         artist_name: "Aysia Tse",
-        ins_handle: ["@fangdanchen"],
-        quote: 'The second iteration of this work documents all my yé yés grandchildren learning how to write their Chinese names. He guides our brush strokes with his own hand, passing down familial and cultural knowledge.',
+        ins_handle: ["@aysiatse"],
+        quote: '“The second iteration of this work documents all my yé yé’s grandchildren learning how to write their Chinese names. He guides our brush strokes with his own hand, passing down familial and cultural knowledge.”',
         bio: 'Aysia Tse (b. Singapore 2001) is an interdisciplinary artist, arts worker and community organizer whose practice includes movement-based work, performance and multimedia installations that engage themes relating to madness, queerness, and her mixed diasporic identity. She is currently developing projects that dive into the intersections of water, movement, identity, and bodily politics.\n\n' +
             'Aysia has worked with various arts organizations including Workman Arts, MABELLEarts, the Creative Research and Inclusive Practices (CRIP) Lab, Arts Etobicoke, STEPS Public Art and Femme Art Review. She has exhibited work at Trinity Square Video, Xpace Cultural Centre, Ignite Gallery, TIFF Bell Lightbox, Long Winter TO and the Rendezvous with Madness Festival. Aysia is grateful to have participated in residencies with the Toronto Dance Theatre (TDT), the Public Visualization Lab in collaboration with Duplex Artists Society and the Shoes Off Collective. She is currently an Artist-in-Residence with the South Asian Visual Arts Centre (SAVAC).' +
             '\n\n' +
-            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/fangdanchen\">@fangdanchen</a>",
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/aysiatse/?hl=en\">@aysiatse</a>",
         topic_name: "Roots and Reconciliation",
         quote_bg_url: require("@/assets/ResilienceInCommunity/Aysia/Rewriting-1.jpeg"),
         collection_title: "",
@@ -72,16 +72,14 @@ export const ResilienceInCommunity = {
         idx: 2,  // for internal use
         format: AllowedFormats.Image,  // for rendering
         visible: true,
-        artist_name: "Ayumi Goto and Vridhhi Chaudhry",
-        ins_handle: ["@fangdanchen"],
+        artist_name: "Ayumi Goto & Vridhhi Chaudhry",
+        ins_handle: [],
         quote: 'In Letters to Future Love, Ayu and Vridhhi explore the spoken and unspoken, seen and unseen in the contemplation of durational grief, traumatic future memories and longing.',
         bio: 'Ayu explores the world through performance, where the body works with and through worlds that are encountered. 我々(ware-ware pronoun) draws upon the writings of Neo-Buddhist modernist philosopher, Nishida Kitarō, who articulated thinking as an outcome of the lived body. Just like one’s hair, sweat, tears, skin, and faeces, thought is a secondary characteristic of the body in motion rather than a prime mover. Ayu is fascinated by place-based, temporal/spatial shapeshifting and how these transformations might expand current understandings of health and disease. 我々 works in collaboration with human, nonhuman, dreams, and hope.' +
         '\n\n' +
         'Vridhhi C. is an interdisciplinary artist working between Toronto and Delhi, India. Holding an MFA from OCAD University, she is also a self-taught painter whose practice is rooted in dreams and personal narratives. Her practice unfolds through ritualistic repetition and evocative mark-making. Drawing on Carl Jung’s insights, she envisions the body as a dynamic archive, a site of endurance and exploration, where layers of emotion, memory, and transformation are etched in every gesture. Collaborating with the ephemeral currents of experience, her work navigates the complexities of human experience through intuitive, nonlinear systems of affect. ' +
         '\n\n' +  
-        'Vridhhi & Ayu have been collaborating closely since August 2023. As they learn from one another, others are invited in so that all are included, nurtured, and supported in the work to transform suffering into loving action and regard. Letters to Future Love is the first public showing of Vridhhi and Ayu’s creative process. ' +
-        '\n\n' +
-         "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/fangdanchen\">@fangdanchen</a>",
+        'Vridhhi & Ayu have been collaborating closely since August 2023. As they learn from one another, others are invited in so that all are included, nurtured, and supported in the work to transform suffering into loving action and regard. Letters to Future Love is the first public showing of Vridhhi and Ayu’s creative process. ',
         topic_name: "Roots and Reconciliation",
         quote_bg_url: require('@/assets/ResilienceInCommunity/Ayumi/Height-3.jpeg'),
         collection_title: "",
