@@ -23,7 +23,10 @@ export const rootsAndReconciliation = {
         topic_name: "Roots and Reconciliation",
         quote_bg_url: require('@/assets/RootsAndReconciliation/Fangdan/YouAreABrainInAVessel.jpg'),
         collection_title: "Technology and Well-being",
-        description: "This piece explores the complex duality of technological advancement, inviting viewers to " +
+        description: "<em>A Train of Thoughts</em> \n" +
+            "<em>You Are a Brain in a Vessel</em> \n" +
+            "\n" +
+            "This piece explores the complex duality of technological advancement, inviting viewers to " +
             "critically assess their relationship with technology. It portrays the media's gaze as a seductive escape " +
             "for the masses—a powerful yet double-edged sword. While technology, particularly social media, can lead to " +
             "unprecedented feelings of loneliness and isolation, it also compels participation through societal pressure. " +

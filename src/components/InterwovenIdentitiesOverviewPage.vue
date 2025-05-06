@@ -66,7 +66,7 @@ function onIntersection(entry, index) {
                 <h1 class="mt-1 text-3xl lg:text-4xl font-medium text-left">Intersectionality in Asian Mental Health</h1>
                 <p class="text-base font-normal mt-3">May 2025</p>
                 <p class="text-2xl mt-12 mb-6">
-                    MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">Interwoven Identities: Intersectionality in Asian Mental Health</span>, a group exhibition curated by Carol Chen.
+                    MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">Interwoven Identities: Unraveling Diaspora Narratives</span>, a group exhibition curated by Carol Chen, Shengyu Cai, and Emily Gong.
                 </p>
                 <div class="flex flex-col space-y-6 leading-6 text-left text-sm sm:text-base">
                     <p class="font-normal">
