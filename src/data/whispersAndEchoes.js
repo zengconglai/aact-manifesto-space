@@ -333,7 +333,9 @@ export const whispersAndEchoes = {
             "Trauma-Sensitive Mindfulness (TSM) issued by David A. Treleaven, PhD as well as a certificate in " +
             "Foundations of Applied Mindfulness Meditation from the University of Toronto.\n" +
             '\n\n' +
-            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/tofuuday\">@tofuuday</a>",
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/thejaimewoo\">@thejaimewoo</a>" +
+            "\n" +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://jaimewoo.com/\">https://jaimewoo.com</a>",
         topic_name: "Whispers and Echoes",
         quote_bg_url: require('@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg'),  // todo add audio
         collection_title: "Of Earth and Flesh",
