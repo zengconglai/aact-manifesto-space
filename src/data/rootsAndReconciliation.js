@@ -218,7 +218,7 @@ export const rootsAndReconciliation = {
         bio: "Lux Gow-Habrich (星尘) is a queer, disabled, multidisciplinary visual artist, facilitator and support " +
             "worker of mixed, second-generation Chinese heritage, new to Tkarón:to - the traditional territory of the " +
             "Haudenosaunee, the Anishinaabe, the Wendat, and the Mississaugas of the Credit." +
-            "\n" +
+            "\n\n" +
             "Following an Interdisciplinary BFA from NSCAD University with a focus in ceramics and textiles, they work " +
             "primarily in gestural, craft, and creative community practices to redefine our understanding of art and " +
             "cultural praxis as sacred remedial forces that can deeply transform and mend systems and relationships. " +
@@ -240,7 +240,7 @@ export const rootsAndReconciliation = {
             "margins, they craft instances to hold compassion for the diversity within our experiences. Committed to " +
             "developing inclusive creative platforms, and reimagining cultural futures outside of the parameters of " +
             "colonialism – Lux’s practice is an expression rooted in relational and access dreaming." +
-            "\n" +
+            "\n\n" +
             "Her mixed media/fibre installation entitled “Queen Mothers of Eastern and Western Skies” is a tactile, " +
             "low-barrier, multi-sensory installation that prioritizes accessible exhibition practices. The title is " +
             "inspired by the deity “Lady Queen Mother of the West (Xiwangmu)”, an ancient goddess in the Chinese " +
@@ -250,7 +250,7 @@ export const rootsAndReconciliation = {
             "transfer and the complex survival stories our bodies want to tell. It touches on the lasting impacts of " +
             "cultural taboos and stigma on mental wellness, nuances within the diasporic experience, and representation " +
             "through cultural symbols." +
-            "\n" +
+            "\n\n" +
             "This work is informed by lived experiences at the intersections of disability, race, and gender. It traces " +
             "the lifelong resilience of her maternal ancestry within the context of dehumanizing xenophobic Chinese " +
             "Canadian migration legacies and the violent realities of fetishization on feminine Asiatic bodies.",
@@ -344,69 +344,55 @@ export const rootsAndReconciliation = {
             },
         ],
     },
-    // artist6:{
-    //     idx: 6,  // for internal use
-    //     format: AllowedFormats.Image,  // for rendering
-    //     visible: true,
-    //     artist_name: "Andrea Luu",
-    //     ins_handle: [""],
-    //     quote: '',
-    //     bio: "Lana Yuan, a Chinese-born artist in Toronto, specializes in sculpture and kinetic installations. She " +
-    //         "graduated with distinction from the University of Toronto's Studio Art Specialist program and has " +
-    //         "exhibited at venues such as the Art Museum at the University of Toronto and Red Head Gallery. Lana won the " +
-    //         "Juror Prize for the Shelley Peterson Student Art Exhibition in 2019 and received the Equity and Diversity " +
-    //         "in the Arts Student project grant in 2018 and 2019. In 2020, she participated in the Artist Residency " +
-    //         "program supported by SKETCH Working Arts and DesignTO and won the 401 Career Launcher Prize, granting her " +
-    //         "studio space from 2022 to 2023. In 2023 and early 2024, Lana received the Newcomer Arts Award and Newcomer " +
-    //         "Space Award from the Toronto Arts Foundation's Neighbourhood Arts Network, as well as the Exhibition " +
-    //         "Assistance Grant from the Ontario Arts Council." +
-    //         '\n\n' +
-    //         "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/lana_yuan\">@lana_yuan</a>",
-    //     topic_name: "Roots and Reconciliation",
-    //     quote_bg_url: require('@/assets/RootsAndReconciliation/Lana/SocialDistancing1.jpg'),
-    //     collection_title: "Social Distancing",
-    //     description: "Map of Motherland employs green sea glass to form a map of Vietnam, a visual representation of the " +
-    //         "country’s once lush and vibrant landscape. The glass symbolizes the natural beauty that existed before the " +
-    //         "devastation wrought by war. Gold flecks are interspersed throughout, representing the bombings that rained " +
-    //         "down from the skies, leaving behind a legacy of destruction and environmental ruin. The work critiques the " +
-    //         "often-glorified portrayal of the Vietnam War in Hollywood media, where the profound human and environmental " +
-    //         "costs can become overshadowed by dramatic narratives. By juxtaposing the vibrant green sea glass with the " +
-    //         "intrusive gold flecks, this piece highlights the stark contrast between the country’s pre-war splendour and " +
-    //         "the harsh reality of its wartime and post-war trauma. Additionally, the piece acknowledges the ongoing " +
-    //         "impact of unexploded ordnance in Vietnam, Laos, and Cambodia, where many bombs remain active, rendering " +
-    //         "large areas inaccessible. The use of over-poured glue to create a watery effect on the map symbolizes the " +
-    //         "continuous presence of these remnants, as if they had just been pulled from the shores, reflecting the " +
-    //         "ongoing environmental and societal challenges. Through this piece, I aim to address the often overlooked " +
-    //         "and enduring consequences of war, encouraging a deeper reflection on the true costs beyond the glorified " +
-    //         "portrayals and reminding us of the lives and lands forever changed by conflict.",
-    //     directory: '/assets/RootsAndReconciliation/Sarah',
-    //     artworks: {
-    //         art1: {
-    //             name: "Social Distancing",
-    //             year: '2023',
-    //             medium: "",
-    //             file_name: require("@/assets/RootsAndReconciliation/Lana/SocialDistancing1.jpg"),
-    //         },
-    //         art2: {
-    //             name: "Social Distancing",
-    //             year: '2023',
-    //             medium: "",
-    //             file_name: require("@/assets/RootsAndReconciliation/Lana/SocialDistancing2.jpg"),
-    //         },
-    //     },
-    //     slides:[
-    //         {
-    //             image: require("@/assets/bg.svg"),
-    //             content:`<img src="${require("@/assets/RootsAndReconciliation/Lana/SocialDistancing1.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
-    //         },
-    //         {
-    //             image: require("@/assets/bg.svg"),
-    //             content:`<img src="${require("@/assets/RootsAndReconciliation/Lana/SocialDistancing2.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
-    //         },
-    //         {
-    //             image: require("@/assets/bg.svg"),
-    //             content:`<img src="${require("@/assets/RootsAndReconciliation/Lana/TenderScars.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
-    //         },
-    //     ],
-    // },
+    artist6:{
+        idx: 6,  // for internal use
+        format: AllowedFormats.Image,  // for rendering
+        visible: true,
+        artist_name: "Andrea Luu",
+        ins_handle: [""],
+        quote: '',
+        bio: "With a background in library studies, children’s entertainment, public health, and mental health advocacy, " +
+            "I bring a unique perspective to everything I create. My work is shaped by my deep connection to the ocean " +
+            "as a proud daughter of boat people, often using the meditative process of collecting sea glass as a " +
+            "metaphor for growth, loss, and healing. Each piece I create tells a story of transformation, reflecting " +
+            "my personal journey as well as the experiences of those who interact with my art.\n" +
+            "\n" +
+            "My philosophy is simple: everything I create is done with intention, mindfulness, and a touch of whimsy to " +
+            "remind us that magic exists in the smallest of spaces. Whether through tarot readings at pop-up shops in " +
+            "Tkaronto or offering my art and design work, I strive to create a space where people feel empowered to " +
+            "connect with themselves and embrace their own unique journeys.\n" +
+            "\n" +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/andrealuu.designs\">@andrealuu.designs</a>"+
+            '\n' +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.andrealuudesigns.com\">https://www.andrealuudesigns.com</a>",
+        topic_name: "Roots and Reconciliation",
+        quote_bg_url: require('@/assets/RootsAndReconciliation/Andrea/SeaGlass8.jpeg'),
+        collection_title: "See-glass",
+        description: "",
+        directory: '/assets/RootsAndReconciliation/Andrea',
+        artworks: {
+            art1: {
+                name: "See-glass",
+                year: '2023',
+                medium: "",
+                file_name: require("@/assets/RootsAndReconciliation/Andrea/SeaGlass8.jpeg"),
+            },
+            art2: {
+                name: "Social Distancing",
+                year: '2023',
+                medium: "",
+                file_name: require("@/assets/RootsAndReconciliation/Andrea/SeaGlass7.jpeg"),
+            },
+        },
+        slides:[
+            {
+                image: require("@/assets/bg.svg"),
+                content:`<img src="${require("@/assets/RootsAndReconciliation/Andrea/SeaGlass8.jpeg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content:`<img src="${require("@/assets/RootsAndReconciliation/Andrea/SeaGlass8.jpeg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+        ],
+    },
 }; 
