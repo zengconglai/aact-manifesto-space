@@ -65,7 +65,9 @@ export const rootsAndReconciliation = {
         visible: true,
         artist_name: "Geoffrey Lok-Fay Cheung",
         ins_handle: [""],
-        quote: '',
+        quote: 'My interdisciplinary practice questions the permanence of familial memory and how rituals of remembrance ' +
+            'may facilitate their transformation. I use wax, plants, and other ceremonial detritus to encase and to ' +
+            'obscure both family and archival photographs.',
         bio: 'Geoffrey Lok-Fay Cheung (he/him) is an artist examining the way bodies hold and transform memories, from ' +
             'its compaction against familial narrative legacies, to its dilation through ritual and ceremony. Cheung’s ' +
             'practice is guided by diverse material and disciplinary traditions, creating works—including print, video, ' +
@@ -217,7 +219,9 @@ export const rootsAndReconciliation = {
         visible: true,
         artist_name: "Lux Gow-Habrich",
         ins_handle: [""],
-        quote: '',
+        quote: 'My interest in cultural objects, commemorative practices and the body as an archive, with its ability ' +
+            'to house intergenerational pain and wisdom - examines complex diasporic experiences of loss and belonging ' +
+            'and unspoken legacies of disabled, queer grief and empowerment.',
         bio: "Lux Gow-Habrich (星尘) is a queer, disabled, multidisciplinary visual artist, facilitator and support " +
             "worker of mixed, second-generation Chinese heritage, new to Tkarón:to - the traditional territory of the " +
             "Haudenosaunee, the Anishinaabe, the Wendat, and the Mississaugas of the Credit." +
@@ -370,18 +374,38 @@ export const rootsAndReconciliation = {
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.andrealuudesigns.com\">https://www.andrealuudesigns.com</a>",
         topic_name: "Roots and Reconciliation",
         quote_bg_url: require('@/assets/RootsAndReconciliation/Andrea/SeaGlass8.jpeg'),
-        collection_title: "See-glass",
-        description: "",
+        collection_title: "Sea-glass",
+        description: "<i>Sea-glass</i> delves into the cyclical journey of sea glass as a metaphor for personal transformation " +
+            "and self-discovery. Imagine being sand, subjected to intense heat and pressure to become something valuable, " +
+            "only to be discarded and cast back into the sea. In this state of abandonment, you are thrown about by the " +
+            "elements, gradually weathered and reshaped.\n" +
+            " \n" +
+            "As the sea glass undergoes this process, it evolves into a more rounded and refined form, symbolizing the " +
+            "growth and maturation that come from enduring life's challenges. This journey through the tumultuous and " +
+            "transformative forces of nature mirrors the human experience of navigating through difficulties, becoming " +
+            "more resilient and self-aware in the process. The eventual emergence of the sea glass from the shallows, " +
+            "completely transformed yet returning to its origins, represents a profound return to oneself. It signifies " +
+            "the journey of finding one's true identity and coming home to oneself after a period of change and " +
+            "adaptation.\n" +
+            "\n" +
+            "Through this piece, I explore the concept of cyclical transformation, illustrating how the process of " +
+            "becoming and unbecoming, of enduring and evolving, ultimately leads to a deeper understanding and " +
+            "acceptance of one's true self. It is a celebration of the resilience and beauty that emerge from life's " +
+            "challenges and the eventual return to one's authentic essence.\n" +
+            "\n" +
+            "These works reflect my ongoing exploration of natural materials and their ability to convey complex themes. " +
+            "I hope they inspire a sense of wonder and introspection, inviting viewers to connect with their own inner " +
+            "self.",
         directory: '/assets/RootsAndReconciliation/Andrea',
         artworks: {
             art1: {
-                name: "See-glass",
+                name: "Sea-glass",
                 year: '2023',
                 medium: "",
                 file_name: require("@/assets/RootsAndReconciliation/Andrea/SeaGlass8.jpeg"),
             },
             art2: {
-                name: "Social Distancing",
+                name: "Sea-glass",
                 year: '2023',
                 medium: "",
                 file_name: require("@/assets/RootsAndReconciliation/Andrea/SeaGlass7.jpeg"),

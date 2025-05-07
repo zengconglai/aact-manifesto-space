@@ -11,7 +11,9 @@ export const whispersAndEchoes = {
         visible: true,
         artist_name: "Emily Au",
         ins_handle: ["@tofuuday"],
-        quote: '',
+        quote: 'My practice is a way for me to understand myself and my experiences. As someone who grew up learning to ' +
+            'avoid misfortunes, I\'ve created a space where I can confront the adversities in my life and face them ' +
+            'head-on within my art.',
         bio: 'Emily Au is a Canadian emerging artist who received a Bachelor of Fine Arts with a Minor in Women and ' +
             'Gender Studies (with First-Class Standing) from Brock University. Her work often wrestles with a myriad of ' +
             'topics that affect her daily life such as mixed-race cultural identity, the racial binary, abjection and ' +
@@ -333,8 +335,8 @@ export const whispersAndEchoes = {
             "\n" +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://jaimewoo.com/\">https://jaimewoo.com</a>",
         topic_name: "Whispers and Echoes",
-        quote_bg_url: require('@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg'),  // todo add audio
-        collection_title: "Of Earth and Flesh",
+        // quote_bg_url: require(''),
+        collection_title: "The Birthday Banquet",
         description: "I am a writer focused on the intersections of culture, technology, and identity. My mindfulness " +
             "journey, fittingly, began 7 years ago when a friend introduced me to Headspace, the meditation app. \n" +
             "\n" +
@@ -362,15 +364,40 @@ export const whispersAndEchoes = {
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.out.com/out-exclusives/2017/1/09/love-black-and-white-love-ourselves-love-all-our-parts\">Love in Black and White: To Love Ourselves Is to Love All of Our Parts</a>" +
             "\n" +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.kirkusreviews.com/book-reviews/jaime-woo/meet-grindr\">Meet Grindr: How One App Changed the Way We Connect</a>",
-        directory: '/assets/WhispersAndEchoes/EmilyAu',
+        directory: '/assets/WhispersAndEchoes/Jaime',
         artworks: {
 
         },
-        slides: [  // todo: check display aspect ratio
+        slides: [
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet1.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet2.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet3.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet4.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet5.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet6.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet7.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+
         ],
     },
 }
