@@ -213,22 +213,22 @@ watch(activeIndex, () => {
                 <div class="flex flex-col lg:flex-row">
                     <div class="bg-url-2 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
                         <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
-                            <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">WHISPERS AND <span class="inline lg:block">ECHOES</span></p>
+                            <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">WHISPERS AND <span class="inline lg:block">ECHOES</span></p>
                             </div>
                         </a>
                     </div>
                     <div class="bg-url-3 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
                         <a href="/exhibitions/interwoven-identities/between-two-worlds">
-                            <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">BETWEEN TWO <span class="inline lg:block">WORLDS</span></p>
+                            <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">BETWEEN TWO <span class="inline lg:block">WORLDS</span></p>
                             </div>
                         </a>
                     </div>
                     <div class="bg-url-4 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
                         <a href="/exhibitions/interwoven-identities/resilience-in-community">
-                            <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">RESILIENCE IN <span class="inline lg:block">COMMUNITY</span></p>
+                            <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">RESILIENCE IN <span class="inline lg:block">COMMUNITY</span></p>
                             </div>
                         </a>
                     </div>

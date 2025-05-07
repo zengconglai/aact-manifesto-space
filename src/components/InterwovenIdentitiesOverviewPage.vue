@@ -83,28 +83,28 @@ function onIntersection(entry, index) {
             <div id="sections" class="col-span-1 flex flex-col justify-start min-w-screen h-[calc(100vh-88px)] lg:h-[calc(100vh-64px)] sm:px-6 sm:px-12 lg:px-0 lg:overflow-y-hidden">
                 <div class="h-1/4 lg:h-1/4 w-full bg-top lg:bg-center bg-cover group bg-url-1">
                     <a href="/exhibitions/interwoven-identities/roots-and-reconciliation">
-                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
+                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-100 group-hover:backdrop-brightness-50 md:transition-all md:ease-in md:ease-out md:duration-300">
                             <p class="text-ivory text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">ROOTS AND RECONCILIATION</p>
                         </div>
                     </a>
                 </div>
                 <div class="h-1/4 lg:h-1/4 w-full bg-center bg-cover group bg-url-2">
                     <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
-                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
+                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-100 group-hover:backdrop-brightness-50 md:transition-all md:ease-in md:ease-out md:duration-300">
                             <p class="text-ivory text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">WHISPERS AND ECHOES</p>
                         </div>
                     </a>
                 </div>
                 <div class="h-1/4 lg:h-1/4 w-full bg-top lg:bg-center bg-cover group bg-url-3">
                     <a href="/exhibitions/interwoven-identities/between-two-worlds">
-                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
+                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-100 group-hover:backdrop-brightness-50 md:transition-all md:ease-in md:ease-out md:duration-300">
                             <p class="text-ivory text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">BETWEEN TWO WORLDS</p>
                         </div>
                     </a>
                 </div>
                 <div class="h-1/4 lg:h-1/4 w-full bg-top lg:bg-center bg-cover group bg-url-4">
                     <a href="/exhibitions/interwoven-identities/resilience-in-community">
-                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 group-hover:backdrop-brightness-100 md:transition-all md:ease-in md:ease-out md:duration-300">
+                        <div class="w-full h-full flex justify-center items-center backdrop-brightness-100 group-hover:backdrop-brightness-50 md:transition-all md:ease-in md:ease-out md:duration-300">
                             <p class="text-ivory text-2xl lg:text-3xl text-center font-extralight lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">RESILIENCE IN COMMUNITY</p>
                         </div>
                     </a>

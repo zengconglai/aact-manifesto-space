@@ -215,17 +215,17 @@ watch(activeIndex, () => {
             <div class="pt-9 lg:px-16 sm:px-12 px-6">
                 <p class="text-xl lg:text-2xl font-bold mb-6 lg:mb-12 mt-2">Continue To</p>
                 <div class="flex flex-col lg:flex-row">
-                    <div class="bg-url-2 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
+                    <div class="bg-url-6 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
                         <a href="/exhibitions/body-politics">
-                            <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">BODY <span class="inline lg:block">POLITICS</span></p>
+                            <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">BODY <span class="inline lg:block">POLITICS</span></p>
                             </div>
                         </a>
                     </div>
-                    <div class="bg-url-3 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
+                    <div class="bg-url-7 w-full h-60 lg:w-1/2 lg:h-[30rem] bg-top bg-cover">
                         <a href="/exhibitions/yellow-perils">
-                            <div class="backdrop-brightness-50 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 hover:backdrop-brightness-100">
-                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]">YELLOW <span class="inline lg:block">PERILS</span></p>
+                            <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
+                                <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">YELLOW <span class="inline lg:block">PERILS</span></p>
                             </div>
                         </a>
                     </div>
@@ -237,6 +237,6 @@ watch(activeIndex, () => {
 </template>
 <style>
 .banner2-url {
-    background-image: url('../assets/curation-topic1.webp');
+    background-image: url('../assets/TheBittenPeach-Overview/curation-topic1.webp');
 }
 </style>

@@ -9,10 +9,96 @@ export const whispersAndEchoes = {
         idx: 1,  // for internal use
         format: AllowedFormats.Image,  // for rendering
         visible: true,
+        artist_name: "Emily Au",
+        ins_handle: ["@tofuuday"],
+        quote: '',
+        bio: 'Emily Au is a Canadian emerging artist who received a Bachelor of Fine Arts with a Minor in Women and ' +
+            'Gender Studies (with First-Class Standing) from Brock University. Her work often wrestles with a myriad of ' +
+            'topics that affect her daily life such as mixed-race cultural identity, the racial binary, abjection and ' +
+            'the aesthetic value of meat. In her final year at Brock, Au was accepted into an Honours studio course ' +
+            'where she created her esteemed Of Earth and Flesh project. Au’s thesis allowed her to kick start her ' +
+            'career as it was met with both domestic and global success and recognition. The attention Au’s projects ' +
+            '(Halved, Of Earth and Flesh) have gathered enables her to make virtual connections around the world, ' +
+            'fostering many relationships with like-minded creatives. In Canada, Au’s work has been shown throughout ' +
+            'spaces in Niagara and the Greater Toronto Area. Additionally, Au has exhibited her work innotable ' +
+            'international contemporary galleries such as CICA Museum (Seoul, South Korea), Hashimoto Contemporary ' +
+            '(Los Angeles, California) and 13A New Street (Hong Kong).' +
+            '\n\n' +
+            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/tofuuday\">@tofuuday</a>",
+        topic_name: "Whispers and Echoes",
+        quote_bg_url: require('@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg'),
+        collection_title: "Of Earth and Flesh",
+        description: "This piece is a part of my <i>Of Earth and Flesh</i> project which plays with the idea of the " +
+            "abject, which is concerned with the disruption of the distinct categories between self and other, of life " +
+            "and death. As Kristeva notes the abject is a threat to the perception of a clean and moral reality, viewers " +
+            "react accordingly to the abject subjects through discomfort. My vessels exist in a space between life and " +
+            "death since unlike real meat, their ceramic nature is permanently imperishable, never given the capability " +
+            "to rot. Through removing meat’s capacity to decompose, my work defies death and asserts itself as unnatural, " +
+            "as abject. Yet, the vessels are not truly part of the living either as they directly mimic something dead: " +
+            "the animal corpse. The flesh my vessels emulate have never known life and yet, they perform as a direct " +
+            "simulation of the butchered animal body. Thus, the vessels Of Earth and Flesh reside in between human " +
+            "concepts of life and death, while simultaneously defying both. They challenge the preconceived notion of " +
+            "the binary of alive and dead, separating themselves from convention, cleanliness and comprehensibility." +
+            "\n\n" +
+            "Using my vegetarian gaze, the <i>Maple Wood Smoked Bacon Vessel</i> came about as I wondered how the cold " +
+            "flesh at the grocery store would sustain as a vase. Through creating this piece, I became a butcher in my " +
+            "own right, a role I actively oppose in my daily life. Yet, I took pleasure in cutting, tearing, and " +
+            "manipulating the clay as I slowly embraced my new position. However, during construction, there was a " +
+            "contest between the clay and I, as I fought for the strips to defy gravity when all they wanted was to " +
+            "resist my wishes and lazily flounder back onto the table. Although I may have asserted myself as victor, " +
+            "the clay’s efforts are never forgotten as its rebellion is highlighted through its perpetual collapsing " +
+            "posture. Hues of red, pink, amber and brown are appropriated to render the bloodiness of the muscle and " +
+            "fat tissues from bodies not unlike man’s. Additionally, the marbling of fat is associated with value and " +
+            "quality as we unknowingly relate the material of meat to ceramics and fine art. The aesthetic value of " +
+            "meat may be common discourse in the carnivorous world, but is nonetheless vulgar as the beauty of a " +
+            "mutilated carcass is inconceivable and absurd to me. Yet, the shiny, glass-like glaze beautifies the " +
+            "vessels, solidifying them as objects capable of both offense and elegance.",
+        directory: '/assets/WhispersAndEchoes/EmilyAu',
+        artworks: {
+            art1: {
+                name: "Maple Wood Smoked Bacon Vessel",
+                year: '2023',
+                medium: "",
+                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg"),
+            },
+            art2: {
+                name: "我吃饱了 (I’m Full)",
+                year: '2023',
+                medium: "",
+                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg"),
+            },
+            art3: {
+                name: "Primary Qinghua",
+                year: '2023',
+                medium: "",
+                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/PrimaryQinghua.jpg"),
+            },
+
+
+        },
+        slides: [  // todo: check display aspect ratio
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+            {
+                image: require("@/assets/bg.svg"),
+                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/PrimaryQinghua.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+            },
+        ],
+    },
+    artist2: {
+        idx: 2,  // for internal use
+        format: AllowedFormats.Image,  // for rendering
+        visible: true,
         artist_name: "Zeng Lai",
         ins_handle: ["@zeng_lai"],
-        quote: '',
-        bio: '' +
+        quote: '"I hope that by repeatedly recreating these scenes through painting, I could eventually be at peace with the harsh reality and start look for confidence and self-love from inside."',
+        bio: 'Zeng Lai is a product designer, content creator, and entrepreneur with an architecture and finance background. As a first-generation queer Chinese Canadian, he has a keen awareness of the challenges that arise from navigating ideological and cultural divides. This has fueled his fascination with exploring the concepts of dualities and in-betweenness.' +
             '\n\n' +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/zeng_lai\">@zeng_lai</a>",
         topic_name: "Whispers and Echoes",
@@ -22,11 +108,7 @@ export const whispersAndEchoes = {
             "humiliating, suffocating, and demoralizing. It reached a point where internalized colonialism dictated " +
             "every decision I made, every thrill and pain I embraced. I wanted to break free from this vicious cycle, " +
             "and that's when I turned to painting. I consider painting a form of self-therapy. Just as a word loses " +
-            "meaning when stared at too long, I began to commemorate traumatic life scenes embedded deep in my memory " +
-            "on paper. An example is this work I am submitting—a gay sauna in San Diego, where a Caucasian man is " +
-            "embraced by dozens of POC men, each desperately seeking his recognition. Unfortunately I am one of them. " +
-            "I hope that by repeatedly recreating these scenes through painting, I could eventually be at peace with " +
-            "the harsh reality and start look for confidence and self-love from inside.",
+            "meaning when stared at too long, I began to commemorate traumatic life scenes embedded deep in my memory on paper.",
         directory: '/assets/WhispersAndEchoes/Zeng',
         artworks: {
             art1: {
@@ -74,8 +156,8 @@ export const whispersAndEchoes = {
 
         ],
     },
-    artist2: {
-        idx: 2,  // for internal use
+    artist3: {
+        idx: 3,  // for internal use
         format: AllowedFormats.Image,  // for rendering
         visible: true,
         artist_name: "Vivek Shraya",
@@ -223,92 +305,6 @@ export const whispersAndEchoes = {
             {
                 image: require("@/assets/bg.svg"),
                 content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 5b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
-            },
-        ],
-    },
-    artist3: {
-        idx: 3,  // for internal use
-        format: AllowedFormats.Image,  // for rendering
-        visible: true,
-        artist_name: "Emily Au",
-        ins_handle: ["@tofuuday"],
-        quote: '',
-        bio: 'Emily Au is a Canadian emerging artist who received a Bachelor of Fine Arts with a Minor in Women and ' +
-            'Gender Studies (with First-Class Standing) from Brock University. Her work often wrestles with a myriad of ' +
-            'topics that affect her daily life such as mixed-race cultural identity, the racial binary, abjection and ' +
-            'the aesthetic value of meat. In her final year at Brock, Au was accepted into an Honours studio course ' +
-            'where she created her esteemed Of Earth and Flesh project. Au’s thesis allowed her to kick start her ' +
-            'career as it was met with both domestic and global success and recognition. The attention Au’s projects ' +
-            '(Halved, Of Earth and Flesh) have gathered enables her to make virtual connections around the world, ' +
-            'fostering many relationships with like-minded creatives. In Canada, Au’s work has been shown throughout ' +
-            'spaces in Niagara and the Greater Toronto Area. Additionally, Au has exhibited her work innotable ' +
-            'international contemporary galleries such as CICA Museum (Seoul, South Korea), Hashimoto Contemporary ' +
-            '(Los Angeles, California) and 13A New Street (Hong Kong).' +
-            '\n\n' +
-            "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/tofuuday\">@tofuuday</a>",
-        topic_name: "Whispers and Echoes",
-        quote_bg_url: require('@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg'),
-        collection_title: "Of Earth and Flesh",
-        description: "This piece is a part of my <i>Of Earth and Flesh</i> project which plays with the idea of the " +
-            "abject, which is concerned with the disruption of the distinct categories between self and other, of life " +
-            "and death. As Kristeva notes the abject is a threat to the perception of a clean and moral reality, viewers " +
-            "react accordingly to the abject subjects through discomfort. My vessels exist in a space between life and " +
-            "death since unlike real meat, their ceramic nature is permanently imperishable, never given the capability " +
-            "to rot. Through removing meat’s capacity to decompose, my work defies death and asserts itself as unnatural, " +
-            "as abject. Yet, the vessels are not truly part of the living either as they directly mimic something dead: " +
-            "the animal corpse. The flesh my vessels emulate have never known life and yet, they perform as a direct " +
-            "simulation of the butchered animal body. Thus, the vessels Of Earth and Flesh reside in between human " +
-            "concepts of life and death, while simultaneously defying both. They challenge the preconceived notion of " +
-            "the binary of alive and dead, separating themselves from convention, cleanliness and comprehensibility." +
-            "\n\n" +
-            "Using my vegetarian gaze, the <i>Maple Wood Smoked Bacon Vessel</i> came about as I wondered how the cold " +
-            "flesh at the grocery store would sustain as a vase. Through creating this piece, I became a butcher in my " +
-            "own right, a role I actively oppose in my daily life. Yet, I took pleasure in cutting, tearing, and " +
-            "manipulating the clay as I slowly embraced my new position. However, during construction, there was a " +
-            "contest between the clay and I, as I fought for the strips to defy gravity when all they wanted was to " +
-            "resist my wishes and lazily flounder back onto the table. Although I may have asserted myself as victor, " +
-            "the clay’s efforts are never forgotten as its rebellion is highlighted through its perpetual collapsing " +
-            "posture. Hues of red, pink, amber and brown are appropriated to render the bloodiness of the muscle and " +
-            "fat tissues from bodies not unlike man’s. Additionally, the marbling of fat is associated with value and " +
-            "quality as we unknowingly relate the material of meat to ceramics and fine art. The aesthetic value of " +
-            "meat may be common discourse in the carnivorous world, but is nonetheless vulgar as the beauty of a " +
-            "mutilated carcass is inconceivable and absurd to me. Yet, the shiny, glass-like glaze beautifies the " +
-            "vessels, solidifying them as objects capable of both offense and elegance.",
-        directory: '/assets/WhispersAndEchoes/EmilyAu',
-        artworks: {
-            art1: {
-                name: "Maple Wood Smoked Bacon Vessel",
-                year: '2023',
-                medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg"),
-            },
-            art2: {
-                name: "我吃饱了 (I’m Full)",
-                year: '2023',
-                medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg"),
-            },
-            art3: {
-                name: "Primary Qinghua",
-                year: '2023',
-                medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/PrimaryQinghua.jpg"),
-            },
-
-
-        },
-        slides: [  // todo: check display aspect ratio
-            {
-                image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
-            },
-            {
-                image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
-            },
-            {
-                image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/PrimaryQinghua.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
         ],
     },
