@@ -67,12 +67,12 @@ onMounted(() => {
             <div class="self-start flex items-center justify-center text-ivory max-w-screen">
                 <span class="sr-only">Current Curation</span>
                 <div class="pl-6 md:pl-12 lg:pl-24">
-                    <p class="text-3xl md:text-6xl lg:text-7xl font-medium tracking-wide" :style="{ opacity: titleLineOpacity, transition: 'opacity 800ms ease-in-out' }">INTERWOVEN IDENTITIES:</p>
+                    <p class="text-3xl md:text-6xl lg:text-7xl font-medium tracking-wide" :style="{ opacity: titleLineOpacity, transition: 'opacity 800ms ease-in-out' }">Interwoven Identities:</p>
                     
                     <p class="text-xl md:text-2xl lg:text-3xl font-light tracking-wide" :style="{ opacity: titleLineOpacity, transition: 'opacity 800ms ease-in-out' }">
-                        INTERSECTIONALITY IN ASIAN MENTAL HEALTH
+                        Intersectionality in Asian Mental Health
                     </p>
-                    <button @click="navigateWithFadeOut('/exhibitions/interwoven-identities')" type="button" :style="{ opacity: buttonOpacity, transition: 'opacity 700ms ease-in' }" class="z-20 mt-6 md:mt-9 lg:mt-12 border border-ivory/60 px-6 py-2 md:py-4 text-black/60 hover:border/ivory hover:text-ivory bg-ivory/50 md:text-base text-small">Explore Now</button>
+                    <button @click="navigateWithFadeOut('/exhibitions/interwoven-identities')" type="button" :style="{ opacity: buttonOpacity, transition: 'opacity 700ms ease-in' }" class="z-20 mt-6 md:mt-9 lg:mt-12 border border-ivory/60 px-6 py-2 md:py-4 text-ivory/100 hover:border/ivory hover:text-ivory bg-ivory/10 md:text-base text-small">Explore Now</button>
                 </div>
             </div>
             <FooterComponent class="text-ivory/70 mb-7" />

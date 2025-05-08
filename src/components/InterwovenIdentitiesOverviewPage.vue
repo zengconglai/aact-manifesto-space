@@ -39,8 +39,9 @@ function onIntersection(entry, index) {
     <main class="min-h-screen bg-ivory max-h-full">
         <div class="sticky z-30 top-0 bg-ivory h-26 lg:h-full mb-0 lg:border-b lg:border-stone-400/50">
             <div class="flex justify-start lg:justify-center items-center pt-4 sm:pt-6 lg:pt-4 px-6 sm:px-12 lg:px-0 pb-2 md:pb-4">
-                <a href="/">
-                    <img src="@/assets/manifesto-logo-black.svg" class="h-6 lg:h-8 opacity-90 lg:ml-4" alt="Website Dark Logo" />
+                <a href="/" class="logo-container relative group">
+                    <img src="@/assets/manifesto-logo-black.svg" class="h-6 lg:h-8 opacity-90 lg:ml-4 transition-all duration-300 group-hover:opacity-0" alt="Website Dark Logo" />
+                    <img src="@/assets/manifesto-logo-red.svg" class="h-6 lg:h-8 opacity-0 lg:ml-4 transition-all duration-300 absolute top-0 left-0 group-hover:opacity-100" alt="Website Hover Logo" />
                 </a>
                 <div class="absolute right-0 sm:right-7 lg:right-10 text-stone-600/80 hover:text-stone-800/50 z-40">
                     <NavDropdown />

@@ -11,6 +11,7 @@ import SmoothScroll from 'smooth-scroll'
 const navbar = ref(null);
 const activeIndex = ref(-1);
 const { startObserving } = useScrollObserver();
+const contentOpacity = ref(0);
 
 onMounted(() => {
     const aboutSection = document.getElementById("about");
@@ -22,6 +23,11 @@ onMounted(() => {
         speed: 800,
         easing: 'easeInOutCubic',
     });
+
+    // Add fade in effect
+    setTimeout(() => {
+        contentOpacity.value = 1;
+    }, 300);
 });
 
 function onIntersection(entry, index) {
@@ -35,8 +41,9 @@ function onIntersection(entry, index) {
      <div class="min-h-screen bg-ivory max-h-full">
         <div class="sticky z-50 top-0 bg-ivory pt-4 sm:pt-6 lg:pt-4 px-6 sm:px-12 lg:px-16">
             <div class="flex justify-start lg:justify-center items-center lg:border-b lg:border-stone-400/50 pb-2 md:pb-4">
-                <a href="/">
-                    <img src="@/assets/manifesto-logo-black.svg" class="h-6 lg:h-8 opacity-90 lg:ml-4" alt="Website Dark Logo" />
+                <a href="/" class="logo-container relative group">
+                    <img src="@/assets/manifesto-logo-black.svg" class="h-6 lg:h-8 opacity-90 lg:ml-4 transition-all duration-300 group-hover:opacity-0" alt="Website Dark Logo" />
+                    <img src="@/assets/manifesto-logo-red.svg" class="h-6 lg:h-8 opacity-0 lg:ml-4 transition-all duration-300 absolute top-0 left-0 group-hover:opacity-100" alt="Website Hover Logo" />
                 </a>
                 <div class="absolute right-0 sm:right-7 lg:right-10 text-stone-600/80 hover:text-stone-800/50 z-40">
                     <NavDropdown />
@@ -59,7 +66,8 @@ function onIntersection(entry, index) {
                 <li><a href="#team" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-bold text-stone-800': activeIndex == 1, 'text-stone-500': activeIndex != 1 }">Team</a></li>
             </ul>
         </div>
-        <div class="flex flex-col items-center justify-center min-h-screen">
+        <div class="flex flex-col items-center justify-center min-h-screen" 
+             :style="{ opacity: contentOpacity, transition: 'opacity 300ms ease-out' }">
             <div id="about" class="min-h-full lg:max-h-[calc(100vh-36px)] col-span-1 pt-40 -mt-40 px-6 md:px-12 lg:px-16">
                 <div class="flex flex-col mx-auto leading-6 text-left text-base pb-12 ">
                     <h1 class="my-6 lg:my-10 text-2xl lg:text-3xl lg:font-medium font-bold text-left">Manifesto Space</h1>

@@ -4,17 +4,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 import NavDropdown from '@/components/NavDropdown.vue'
 import interwovenWhisperImg from '@/assets/Interwoven-Overview/Whisper.jpg';
 import bittenPeachCurationImg from '@/assets/TheBittenPeach-Overview/curation-topic1.webp';
-import { ref, onMounted } from "vue"
 // manifesto-logo-black.svg is already referenced in the template, no need to import if just used in src
-
-const contentOpacity = ref(0);
-
-onMounted(() => {
-    // Add fade in effect
-    setTimeout(() => {
-        contentOpacity.value = 1;
-    }, 300);
-});
 </script>
 
 <template>
@@ -22,8 +12,9 @@ onMounted(() => {
         <!-- Header Section -->
         <div class="sticky z-50 top-0 bg-ivory pt-4 sm:pt-6 lg:pt-4 px-6 sm:px-12 lg:px-16">
             <div class="flex justify-start lg:justify-center items-center lg:border-b lg:border-stone-400/50 pb-2 md:pb-4">
-                <a href="/">
-                    <img src="@/assets/manifesto-logo-black.svg" class="h-6 lg:h-8 opacity-90 lg:ml-4" alt="Website Dark Logo" />
+                <a href="/" class="logo-container relative group">
+                    <img src="@/assets/manifesto-logo-black.svg" class="h-6 lg:h-8 opacity-90 lg:ml-4 transition-all duration-300 group-hover:opacity-0" alt="Website Dark Logo" />
+                    <img src="@/assets/manifesto-logo-red.svg" class="h-6 lg:h-8 opacity-0 lg:ml-4 transition-all duration-300 absolute top-0 left-0 group-hover:opacity-100" alt="Website Hover Logo" />
                 </a>
                 <div class="absolute right-0 sm:right-7 lg:right-10 text-stone-600/80 hover:text-stone-800/50 z-40">
                     <NavDropdown />
@@ -36,7 +27,7 @@ onMounted(() => {
             <aside class="ruler-sidebar fixed top-0 left-[15px] h-screen w-[20px] z-10"></aside>
             <aside class="ruler-sidebar fixed top-0 right-[15px] h-screen w-[20px] z-10"></aside>
             
-            <main class="main-content-new flex-grow px-6 sm:px-12 lg:px-16 relative z-20 w-full pt-20 animate-fade-in" :style="{ opacity: contentOpacity, transition: 'opacity 300ms ease-out' }">
+            <main class="main-content-new flex-grow px-6 sm:px-12 lg:px-16 relative z-20 w-full pt-20 animate-fade-in">
                 <section class="exhibition-section-new mb-[70px]">
                     <article class="exhibition-item-new flex flex-col items-start gap-[15px] mb-[100px] ml-[15vw] relative group"> 
                         <router-link to="/exhibitions/interwoven-identities" class="w-full">
@@ -57,7 +48,7 @@ onMounted(() => {
                         </router-link>
                     </article>
 
-                    <article class="exhibition-item-new flex flex-col items-end gap-[15px] mb-[50px] mr-[20vw] relative group" :style="{ opacity: contentOpacity, transition: 'opacity 300ms ease-out' }"> 
+                    <article class="exhibition-item-new flex flex-col items-end gap-[15px] mb-[50px] mr-[20vw] relative group"> 
                         <router-link to="/exhibitions/the-bitten-peach" class="w-full flex flex-col items-end">
                             <div class="image-container-new w-[100vw] sm:w-[50vw] md:w-[40vw] lg:w-[35vw] relative">
                                 <div class="may2025-line absolute top-1/2 transform -translate-y-1/2 h-px bg-stone-500" 

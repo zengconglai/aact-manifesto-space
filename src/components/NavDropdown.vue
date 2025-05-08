@@ -53,7 +53,10 @@
                 :class="[
                   active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
-                ]" href="https://pages.donately.com/asianartsandculturetrust/form/frm_0f49dac5877d"
+                ]" 
+                href="https://pages.donately.com/asianartsandculturetrust/form/frm_0f49dac5877d"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Donate
               </a>
