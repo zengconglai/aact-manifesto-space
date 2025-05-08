@@ -90,7 +90,7 @@ watch(activeIndex, () => {
                 </a>
                 <p class="mx-2">/</p>
                 <a href="/exhibitions" class="hover:text-stone-900">
-                  Interwoven Identities: Unraveling Diaspora Narratives
+                    Interwoven Identities: Unraveling Diaspora Narratives
                 </a>
                 <p class="mx-2">/</p>
                 <button disabled class="text-stone-600">

@@ -8,6 +8,7 @@ import SmoothScroll from 'smooth-scroll'
 const navbar = ref(null);
 const activeIndex = ref(-1);
 const { startObserving } = useScrollObserver();
+const contentOpacity = ref(0);
 
 onMounted(() => {
     const aboutSection = document.getElementById("about");
@@ -21,6 +22,11 @@ onMounted(() => {
         easing: 'easeInOutCubic',
         offset: offset,
     });
+
+    // Add fade in effect
+    setTimeout(() => {
+        contentOpacity.value = 1;
+    }, 300);
 });
 
 function onIntersection(entry, index) {
@@ -60,7 +66,8 @@ function onIntersection(entry, index) {
             </ul>
         </div>
         <!-- end of navigation -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-start lg:h-[calc(100vh-64px)] mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-start lg:h-[calc(100vh-64px)] mx-auto" 
+             :style="{ opacity: contentOpacity, transition: 'opacity 300ms ease-out' }">
             <div id="about" class="lg:h-full col-span-1 px-6 sm:px-12 lg:px-16 flex flex-col lg:overflow-y-scroll pb-24 lg:pb-0">
                 <h1 class="mt-2 sm:mt-4 md:mt-6 lg:mt-16 text-3xl lg:text-4xl font-medium text-left">Interwoven Identities:</h1>
                 <h1 class="mt-1 text-3xl lg:text-4xl font-medium text-left">Intersectionality in Asian Mental Health</h1>

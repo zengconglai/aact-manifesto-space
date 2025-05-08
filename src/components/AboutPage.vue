@@ -32,13 +32,13 @@ function onIntersection(entry, index) {
 }
 </script>
 <template>
-    <main class="h-full bg-ivory">
-        <div class="sticky z-30 top-0 bg-ivory h-26 lg:h-28 pt-4 md:pt-6 lg:pt-4 px-6 md:px-12 lg:px-16">
+     <div class="min-h-screen bg-ivory max-h-full">
+        <div class="sticky z-50 top-0 bg-ivory pt-4 sm:pt-6 lg:pt-4 px-6 sm:px-12 lg:px-16">
             <div class="flex justify-start lg:justify-center items-center lg:border-b lg:border-stone-400/50 pb-2 md:pb-4">
                 <a href="/">
                     <img src="@/assets/manifesto-logo-black.svg" class="h-6 lg:h-8 opacity-90 lg:ml-4" alt="Website Dark Logo" />
                 </a>
-                <div class="absolute right-0 md:right-7 lg:right-11 text-stone-600/80 hover:text-stone-800/50 z-40">
+                <div class="absolute right-0 sm:right-7 lg:right-10 text-stone-600/80 hover:text-stone-800/50 z-40">
                     <NavDropdown />
                 </div>
             </div>
@@ -59,8 +59,7 @@ function onIntersection(entry, index) {
                 <li><a href="#team" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-bold text-stone-800': activeIndex == 1, 'text-stone-500': activeIndex != 1 }">Team</a></li>
             </ul>
         </div>
-        <!-- end of navigation -->
-        <div class="min-h-full mx-auto lg:pb-28 bg-ivory">
+        <div class="flex flex-col items-center justify-center min-h-screen">
             <div id="about" class="min-h-full lg:max-h-[calc(100vh-36px)] col-span-1 pt-40 -mt-40 px-6 md:px-12 lg:px-16">
                 <div class="flex flex-col mx-auto leading-6 text-left text-base pb-12 ">
                     <h1 class="my-6 lg:my-10 text-2xl lg:text-3xl lg:font-medium font-bold text-left">Manifesto Space</h1>
@@ -72,23 +71,22 @@ function onIntersection(entry, index) {
                     </p>
                 </div>
             </div>
-            <div id="team" class="pt-28 -mt-28 lg:pt-0 lg:mt-0 px-6 md:px-12 lg:px-16">
+            <div id="team" class="pt-28 -mt-28 lg:pt-0 lg:mt-0 px-6 md:px-12 lg:px-16 pb-32">
                 <div class="mx-auto">
                     <div class="mx-auto lg:mx-0">
                         <h2 class="mb-4 lg:mb-10 text-2xl lg:text-3xl lg:font-medium font-bold text-left">Team</h2>
                     </div>
                     <ul role="list" class="mx-auto grid grid-cols-1 md:gap-x-12 lg:gap-x-16 gap-y-16 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         <li v-for="member in team" :key="member.name">
-<!--                            <img class="aspect-[1/1] rounded object-cover" :src="member.imageUrl" alt="Profile Image" />-->
                             <h3 class="mt-4 lg:mt-6 lg:text-2xl font-bold text-gray-900">{{ member.name }}</h3>
                             <p class="lg:leading-7 lg:mt-1 text-base text-gray-600">{{ member.role }}</p>
-                          <p class="text-base mt-3 leading-6">{{ member.bio }}</p>
-                          <div class="text-base mt-3 leading-6" v-html="member.social"></div>
+                            <p class="text-base mt-3 leading-6">{{ member.bio }}</p>
+                            <div class="text-base mt-3 leading-6" v-html="member.social"></div>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <FooterComponent class="text-stone-800/60 bg-ivory lg:border-t lg:border-stone-400/50 pt-28 md:pt-14 lg:pt-7 pb-7 px-2 md:px-8 lg:px-4" />
-    </main>
+        <FooterComponent class="text-stone-800/60 bg-ivory lg:border-t lg:border-stone-400/50" />
+    </div>
 </template>
