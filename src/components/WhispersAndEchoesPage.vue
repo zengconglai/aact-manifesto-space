@@ -106,7 +106,7 @@ watch(activeIndex, () => {
                 <section id="page_banner" class="h-[calc(100vh-89px)] w-full bg-cover bg-top banner5-url">
                     <div class="bg-black/50 w-full h-[calc(100vh-89px)] flex flex-col items-start justify-center lg:pl-16 sm:pl-12 pl-6">
                         <p class="lg:leading-6 hidden lg:block lg:text-xl text-ivory/90">
-                          Interwoven Identities: Unraveling Diaspora Narratives
+                          Interwoven Identities: Intersectionality in Asian Mental Health
                         </p>
                         <p class="leading-[29px] sm:leading-[44px] lg:leading-[58px] text-ivory/90 font-medium text-2xl sm:text-4xl lg:text-5xl text-ivory text-center">
                             Whispers and Echoes

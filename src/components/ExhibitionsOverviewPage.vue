@@ -8,7 +8,7 @@ import bittenPeachCurationImg from '@/assets/TheBittenPeach-Overview/curation-to
 </script>
 
 <template>
-    <div class="min-h-screen bg-ivory max-h-full">
+    <div class="min-h-screen bg-ivory max-h-full max-w-[100vw] overflow-x-hidden">
         <!-- Header Section -->
         <div class="sticky z-50 top-0 bg-ivory pt-4 sm:pt-6 lg:pt-4 px-6 sm:px-12 lg:px-16">
             <div class="flex justify-start lg:justify-center items-center lg:border-b lg:border-stone-400/50 pb-2 md:pb-4">
@@ -23,7 +23,7 @@ import bittenPeachCurationImg from '@/assets/TheBittenPeach-Overview/curation-to
         </div>
 
         <!-- New Main Content Area -->
-        <div class="page-container relative flex pt-10 pb-10 w-full">
+        <div class="page-container relative flex pt-10 pb-10 w-full max-w-[100vw] overflow-x-hidden">
             <aside class="ruler-sidebar fixed top-0 left-[15px] h-screen w-[20px] z-10"></aside>
             <aside class="ruler-sidebar fixed top-0 right-[15px] h-screen w-[20px] z-10"></aside>
             
@@ -32,10 +32,10 @@ import bittenPeachCurationImg from '@/assets/TheBittenPeach-Overview/curation-to
                     <article class="exhibition-item-new flex flex-col items-start gap-[15px] mb-[100px] ml-[15vw] relative group"> 
                         <router-link to="/exhibitions/interwoven-identities" class="w-full">
                             <div class="image-container-new w-[100vw] sm:w-[70vw] md:w-[70vw] lg:w-[50vw] relative">
-                                <div class="may2025-line absolute top-1/2 transform -translate-y-1/2 h-px bg-stone-500" 
+                                <div class="may2025-line absolute top-0 transform translate-y-[-1px] h-px bg-stone-500 sm:top-1/2 sm:translate-y-[-50%]" 
                                      style="left: calc(-20vw); width: calc(100% + 20vw + 90px); z-index: 1;"> 
                                 </div>
-                                <p class="date-text absolute top-1/2 transform -translate-y-[120%] text-base font-normal text-stone-700 px-2 z-20" 
+                                <p class="date-text absolute top-0 transform translate-y-[-31px] text-base font-normal text-stone-700 px-2 z-20 sm:top-1/2 sm:translate-y-[-120%]" 
                                    style="left: calc(-15vw);"> 
                                     May 2025
                                 </p>
@@ -51,10 +51,10 @@ import bittenPeachCurationImg from '@/assets/TheBittenPeach-Overview/curation-to
                     <article class="exhibition-item-new flex flex-col items-end gap-[15px] mb-[50px] mr-[20vw] relative group"> 
                         <router-link to="/exhibitions/the-bitten-peach" class="w-full flex flex-col items-end">
                             <div class="image-container-new w-[100vw] sm:w-[50vw] md:w-[40vw] lg:w-[35vw] relative">
-                                <div class="may2025-line absolute top-1/2 transform -translate-y-1/2 h-px bg-stone-500" 
+                                <div class="may2025-line absolute top-0 transform translate-y-[-1px] h-px bg-stone-500 sm:top-1/2 sm:translate-y-[-50%]" 
                                      style="right: calc(-30vw); width: calc(100% + 30vw + 90px); z-index: 1;"> 
                                 </div>
-                                <p class="date-text absolute top-1/2 transform -translate-y-[120%] text-base font-normal text-stone-700 px-2 z-20" 
+                                <p class="date-text absolute top-0 transform translate-y-[-31px] text-base font-normal text-stone-700 px-2 z-20 sm:top-1/2 sm:translate-y-[-120%]" 
                                    style="right: calc(-20vw);"> 
                                     May 2023
                                 </p>
