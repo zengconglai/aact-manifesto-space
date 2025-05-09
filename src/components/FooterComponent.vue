@@ -8,7 +8,7 @@
                         <a :href="page.href" 
                            :target="page.href.startsWith('http') ? '_blank' : '_self'"
                            :rel="page.href.startsWith('http') ? 'noopener noreferrer' : ''"
-                           class="text-xs md:text-sm">{{ page.name }}</a>
+                           class="text-xs md:text-sm transition-all duration-300 hover:text-[#A21A08] hover:underline decoration-1 underline-offset-4">{{ page.name }}</a>
                         <p class="mx-2">/</p>
                     </div>
                 </li>
@@ -21,7 +21,7 @@
                         <a :href="media.href" 
                            target="_blank"
                            rel="noopener noreferrer"
-                           class="text-xs md:text-sm">{{ media.name }}</a>
+                           class="text-xs md:text-sm transition-all duration-300 hover:text-[#A21A08] hover:underline decoration-1 underline-offset-4">{{ media.name }}</a>
                         <p class="mx-2">/</p>
                     </div>
                 </li>
