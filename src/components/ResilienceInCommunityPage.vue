@@ -211,21 +211,21 @@ watch(activeIndex, () => {
                     <p class="text-xl lg:text-2xl font-bold mb-6 lg:mb-12 mt-2">Continue To</p>
                     <div class="flex flex-col lg:flex-row">
                         <div class="bg-url-1 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
-                            <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
+                            <a href="/exhibitions/interwoven-identities/roots-and-reconciliation">
                                 <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
                                     <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">ROOTS AND <span class="inline lg:block">RECONCILIATION</span></p>
                                 </div>
                             </a>
                         </div>
                         <div class="bg-url-2 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
-                            <a href="/exhibitions/interwoven-identities/between-two-worlds">
+                            <a href="/exhibitions/interwoven-identities/unseen-and-unspoken">
                                 <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
-                                    <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">WHISPERS AND <span class="inline lg:block">ECHOES</span></p>
+                                    <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">UNSEEN AND <span class="inline lg:block">UNSPOKEN</span></p>
                                 </div>
                             </a>
                         </div>
                         <div class="bg-url-3 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
-                            <a href="/exhibitions/interwoven-identities/resilience-in-community">
+                            <a href="/exhibitions/interwoven-identities/between-two-worlds">
                                 <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
                                     <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">BETWEEN TWO <span class="inline lg:block">WORLDS</span></p>
                                 </div>

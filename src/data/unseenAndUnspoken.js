@@ -4,7 +4,7 @@ const AllowedFormats = {
     Text: "text",
 }
 
-export const whispersAndEchoes = {
+export const unseenAndUnspoken = {
     artist1: {
         idx: 1,  // for internal use
         format: AllowedFormats.Image,  // for rendering
@@ -27,10 +27,12 @@ export const whispersAndEchoes = {
             '(Los Angeles, California) and 13A New Street (Hong Kong).' +
             '\n\n' +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/tofuuday\">@tofuuday</a>",
-        topic_name: "Whispers and Echoes",
-        quote_bg_url: require('@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg'),
+        topic_name: "Unseen and Unspoken",
+        quote_bg_url: require('@/assets/UnseenAndUnspoken/EmilyAu/IAmFull.jpg'),
         collection_title: "Of Earth and Flesh",
-        description: "This piece is a part of my <i>Of Earth and Flesh</i> project which plays with the idea of the " +
+        description: "" +
+            "<em>Maple Wood Smoked Bacon Vessel</em>\n" +
+            "This piece is a part of my <i>Of Earth and Flesh</i> project which plays with the idea of the " +
             "abject, which is concerned with the disruption of the distinct categories between self and other, of life " +
             "and death. As Kristeva notes the abject is a threat to the perception of a clean and moral reality, viewers " +
             "react accordingly to the abject subjects through discomfort. My vessels exist in a space between life and " +
@@ -54,26 +56,53 @@ export const whispersAndEchoes = {
             "quality as we unknowingly relate the material of meat to ceramics and fine art. The aesthetic value of " +
             "meat may be common discourse in the carnivorous world, but is nonetheless vulgar as the beauty of a " +
             "mutilated carcass is inconceivable and absurd to me. Yet, the shiny, glass-like glaze beautifies the " +
-            "vessels, solidifying them as objects capable of both offense and elegance.",
-        directory: '/assets/WhispersAndEchoes/EmilyAu',
+            "vessels, solidifying them as objects capable of both offense and elegance." +
+            "\n\n" +
+            "<em>I Am Full</em>\n" +
+            "I aim to explore the debilitating and overlooked mental health issue of disordered eating within Chinese " +
+            "women. An expectation and standard of a thin and fragile body within both Chinese and the Chinese diaspora " +
+            "has resulted in persistent anxieties around eating. Upon one scroll through Xiaohongshu and Douyin, it’s " +
+            "easy to see how significant thinness is as a marker of beauty and accomplishment. The pressure of remaining " +
+            "slender has shifted the connotations surrounding mealtime from being an opportunity for social connection " +
+            "and pleasure to an entity to avoid. The act of lifting one’s rice bowl up to their mouth has become an " +
+            "unsafe place, with fear of internal and external judgment. The stress one feels after finishing their food " +
+            "can be so relentless it may be easier to fabricate a false sense of fullness rather than to feel the weight " +
+            "of shame and panic.\n" +
+            "\n" +
+            "My project will display a visualization of the methods that Chinese women go through to restrain themselves " +
+            "from eating. I aim to create a series of dinnerware, inspired by the popular Mun Shou pattern, often seen " +
+            "in both restaurants and homes. Bowls, plates, serving dishes, and spoons with the phrase ‘萬壽無疆’ " +
+            "(boundless longevity) will be changed to read 我吃饱了 (I’m full) to convey the message of restrictive " +
+            "eating patterns as a result from mental health challenges surrounding food consumption. This series of " +
+            "dinnerware with anxiety-induced affirmations will serve as a bleak reminder of Chinese women’s efforts to " +
+            "persuade themselves to stop eating." +
+            "\n\n" +
+            "<em>Primary Colour Vases</em>\n" +
+            "The <i>Primary Colour Vases</i>, was a way for me to explore and express visually my identity as a mixed-race " +
+            "person. I often like to take traditional Chinese aesthetics and play with the idea of an \"interruption\". " +
+            "As the brightness of the colour acts as a cue that the work is not done in a traditional nor \"authentic\" " +
+            "way. Of course, this relation is often one of confusion, anxiety, identity-crisis' and psychological " +
+            "distress. There's definitely a foundation of anxiety that comes with all these works, as well as a level " +
+            "of insecurity and self-surveillance that has been a part of my journey.\n",
+        directory: '/assets/UnseenAndUnspoken/EmilyAu',
         artworks: {
             art1: {
                 name: "Maple Wood Smoked Bacon Vessel",
                 year: '2023',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/EmilyAu/MapleWoodSmoked.jpg"),
             },
             art2: {
                 name: "我吃饱了 (I’m Full)",
                 year: '2023',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/EmilyAu/IAmFull.jpg"),
             },
             art3: {
                 name: "Primary Qinghua",
                 year: '2023',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/EmilyAu/PrimaryQinghua.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/EmilyAu/PrimaryQinghua.jpg"),
             },
 
 
@@ -81,15 +110,15 @@ export const whispersAndEchoes = {
         slides: [  // todo: check display aspect ratio
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/MapleWoodSmoked.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/EmilyAu/MapleWoodSmoked.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/IAmFull.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/EmilyAu/IAmFull.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/EmilyAu/PrimaryQinghua.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/EmilyAu/PrimaryQinghua.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
         ],
     },
@@ -103,57 +132,57 @@ export const whispersAndEchoes = {
         bio: 'Zeng Lai is a product designer, content creator, and entrepreneur with an architecture and finance background. As a first-generation queer Chinese Canadian, he has a keen awareness of the challenges that arise from navigating ideological and cultural divides. This has fueled his fascination with exploring the concepts of dualities and in-betweenness.' +
             '\n\n' +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/zeng_lai\">@zeng_lai</a>",
-        topic_name: "Whispers and Echoes",
-        quote_bg_url: require('@/assets/WhispersAndEchoes/Zeng/untitled.jpg'),
+        topic_name: "Unseen and Unspoken",
+        quote_bg_url: require('@/assets/UnseenAndUnspoken/Zeng/untitled.jpg'),
         collection_title: "Body and the Soul",
         description: "Being a queer Asian living in Toronto, I find the desexualization of the Asian community " +
             "humiliating, suffocating, and demoralizing. It reached a point where internalized colonialism dictated " +
             "every decision I made, every thrill and pain I embraced. I wanted to break free from this vicious cycle, " +
             "and that's when I turned to painting. I consider painting a form of self-therapy. Just as a word loses " +
             "meaning when stared at too long, I began to commemorate traumatic life scenes embedded deep in my memory on paper.",
-        directory: '/assets/WhispersAndEchoes/Zeng',
+        directory: '/assets/UnseenAndUnspoken/Zeng',
         artworks: {
             art1: {
                 name: "Untitled",
                 year: '',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Zeng/untitled.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Zeng/untitled.jpg"),
             },
             art2: {
                 name: "Untitled",
                 year: '',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Zeng/untitled Closeup 1.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Zeng/untitled Closeup 1.jpg"),
             },
             art3: {
                 name: "Untitled",
                 year: '',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Zeng/untitled Closeup 2.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Zeng/untitled Closeup 2.jpg"),
             },
             art4: {
                 name: "Untitled",
                 year: '',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Zeng/untitled Closeup 3.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Zeng/untitled Closeup 3.jpg"),
             },
         },
         slides: [
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Zeng/untitled.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Zeng/untitled.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Zeng/untitled Closeup 1.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Zeng/untitled Closeup 1.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Zeng/untitled Closeup 2.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Zeng/untitled Closeup 2.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Zeng/untitled Closeup 3.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Zeng/untitled Closeup 3.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
 
         ],
@@ -187,126 +216,126 @@ export const whispersAndEchoes = {
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/vivekshraya\">@vivekshraya</a>" +
             "\n" +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.vivekshraya.com/\">www.vivekshraya.com</a>",
-        topic_name: "Whispers and Echoes",
-        quote_bg_url: require('@/assets/WhispersAndEchoes/Vivek/Niche.jpg'),
+        topic_name: "Unseen and Unspoken",
+        quote_bg_url: require('@/assets/UnseenAndUnspoken/Vivek/Niche.jpg'),
         collection_title: "Niche",
         description: "A niche is defined as a cavity, hollow, or recess in a wall. When a work of art is classified as " +
             "“niche,” the “wall” or the environment in which the art was produced, recedes from view. This photo series " +
             "brings the wall back into the foreground.",
-        directory: '/assets/WhispersAndEchoes/Vivek',
+        directory: '/assets/UnseenAndUnspoken/Vivek',
         artworks: {
             art1: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche.jpg"),
             },
             art2: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 1a.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 1a.jpg"),
             },
             art3: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 1b.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 1b.jpg"),
             },
             art4: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 2a.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 2a.jpg"),
             },
             art5: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 2b.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 2b.jpg"),
             },
             art6: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 3a.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 3a.jpg"),
             },
             art7: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 3b.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 3b.jpg"),
             },
             art8: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 4a.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 4a.jpg"),
             },
             art9: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 4b.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 4b.jpg"),
             },
             art10: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 5a.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 5a.jpg"),
             },
             art11: {
                 name: "Niche",
                 year: '2025',
                 medium: "",
-                file_name: require("@/assets/WhispersAndEchoes/Vivek/Niche 5b.jpg"),
+                file_name: require("@/assets/UnseenAndUnspoken/Vivek/Niche 5b.jpg"),
             },
 
         },
         slides: [
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 1a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 1a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 1b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 1b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 2a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 2a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 2b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 2b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 3a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 3a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 3b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 3b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 4a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 4a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 4b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 4b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 5a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 5a.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Vivek/Niche 5b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Vivek/Niche 5b.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
         ],
     },
@@ -334,7 +363,7 @@ export const whispersAndEchoes = {
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/thejaimewoo\">@thejaimewoo</a>" +
             "\n" +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://jaimewoo.com/\">https://jaimewoo.com</a>",
-        topic_name: "Whispers and Echoes",
+        topic_name: "Unseen and Unspoken",
         // quote_bg_url: require(''),
         collection_title: "The Birthday Banquet",
         description: "I am a writer focused on the intersections of culture, technology, and identity. My mindfulness " +
@@ -364,38 +393,38 @@ export const whispersAndEchoes = {
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.out.com/out-exclusives/2017/1/09/love-black-and-white-love-ourselves-love-all-our-parts\">Love in Black and White: To Love Ourselves Is to Love All of Our Parts</a>" +
             "\n" +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.kirkusreviews.com/book-reviews/jaime-woo/meet-grindr\">Meet Grindr: How One App Changed the Way We Connect</a>",
-        directory: '/assets/WhispersAndEchoes/Jaime',
+        directory: '/assets/UnseenAndUnspoken/Jaime',
         artworks: {
 
         },
         slides: [
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet1.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Jaime/TheBirthdayBanquet1.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet2.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Jaime/TheBirthdayBanquet2.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet3.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Jaime/TheBirthdayBanquet3.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet4.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Jaime/TheBirthdayBanquet4.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet5.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Jaime/TheBirthdayBanquet5.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet6.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Jaime/TheBirthdayBanquet6.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
             {
                 image: require("@/assets/bg.svg"),
-                content: `<img src="${require("@/assets/WhispersAndEchoes/Jaime/TheBirthdayBanquet7.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+                content: `<img src="${require("@/assets/UnseenAndUnspoken/Jaime/TheBirthdayBanquet7.png")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
             },
 
         ],

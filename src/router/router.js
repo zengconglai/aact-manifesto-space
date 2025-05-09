@@ -10,7 +10,7 @@ import BodyPolitics from '@/components/BodyPoliticsPage.vue'
 import MadeInQueer from '@/components/MadeInQueerPage.vue'
 import YellowPerils from '@/components/YellowPerilsPage.vue'
 import RootsAndReconciliation from '@/components/RootsAndReconciliationPage.vue'
-import WhispersAndEchoes from '@/components/WhispersAndEchoesPage.vue'
+import UnseenAndUnspoken from '@/components/UnseenAndUnspoken.vue'
 import BetweenTwoWorlds from '@/components/BetweenTwoWorldsPage.vue'
 import ResilienceInCommunity from '@/components/ResilienceInCommunityPage.vue'
 
@@ -59,8 +59,8 @@ const router = createRouter({
 			component: RootsAndReconciliation
 		},
 		{
-			path:'/exhibitions/interwoven-identities/whispers-and-echoes',
-			component: WhispersAndEchoes
+			path:'/exhibitions/interwoven-identities/unseen-and-unspoken',
+			component: UnseenAndUnspoken
 		},
 		{
 			path:'/exhibitions/interwoven-identities/between-two-worlds',

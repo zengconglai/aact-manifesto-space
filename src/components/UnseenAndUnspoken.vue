@@ -4,7 +4,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 import NavDropdown from '@/components/NavDropdown.vue'
 import CarouselComponent from '@/components/CarouselComponent.vue'
 import SmoothScroll from 'smooth-scroll'
-import { whispersAndEchoes } from '@/data/whispersAndEchoes.js';
+import { unseenAndUnspoken } from '@/data/unseenAndUnspoken.js';
 import { useScrollObserver } from '@/useScrollObserver.js'
 import { ref, onMounted, computed, watch } from "vue"
 
@@ -47,7 +47,7 @@ function onIntersection(entry, index) {
     }
 }
 
-const whispersAndEchoesArray = computed(() => Object.values(whispersAndEchoes));
+const unseenAndUnspokenArray = computed(() => Object.values(unseenAndUnspoken));
 
 watch(activeIndex, () => {
     const navbarWidth = navbar.value.offsetWidth;
@@ -74,7 +74,7 @@ watch(activeIndex, () => {
                 <BreadCrumbs 
                     :main-page="false"
                     current-exhibition="Interwoven Identities"
-                    current-section="Whispers and Echoes"
+                    current-section="Unseen and Unspoken"
                 />
             </div>
             <div class="lg:hidden flex items-center justify-start w-full text-stone-700 text-sm">
@@ -83,18 +83,18 @@ watch(activeIndex, () => {
                 </a>
                 <p class="mx-2">/</p>
                 <a href="/exhibitions" class="hover:text-stone-900">
-                  Interwoven Identities: Interactionality in Asian Mental Health
+                  Interwoven Identities: Intersectionality in Asian Mental Health
                 </a>
                 <p class="mx-2">/</p>
                 <button disabled class="text-stone-600">
-                    Whispers and Echoes
+                    Unseen and Unspoken
                 </button>
             </div>
             <nav ref="navbar" class="bg-ivory t-0 border-b border-stone-600 lg:pb-2 flex space-x-5 overflow-x-auto max-w-screen text-sm scrollbar-hide">
                 <a href="#about" class="nav-item inline-block whitespace-nowrap text-stone-600" :class="{'font-bold text-stone-800': activeIndex == 0, 'text-stone-500': activeIndex != 0 }">
                     About
                 </a>
-                <a v-for="(artist, index) in whispersAndEchoesArray" :key="'nav_item_' + index" :href="`#artist_${index}`" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-semibold text-stone-800': activeIndex == index + 1, 'text-stone-500': activeIndex != index + 1 }">
+                <a v-for="(artist, index) in unseenAndUnspokenArray" :key="'nav_item_' + index" :href="`#artist_${index}`" class="nav-item inline-block whitespace-nowrap" :class="{ 'font-semibold text-stone-800': activeIndex == index + 1, 'text-stone-500': activeIndex != index + 1 }">
                     {{artist.artist_name}}
                 </a>
             </nav>
@@ -109,7 +109,7 @@ watch(activeIndex, () => {
                           Interwoven Identities: Intersectionality in Asian Mental Health
                         </p>
                         <p class="leading-[29px] sm:leading-[44px] lg:leading-[58px] text-ivory/90 font-medium text-2xl sm:text-4xl lg:text-5xl text-ivory text-center">
-                            Whispers and Echoes
+                            Unseen and Unspoken
                         </p>
                     </div>
                 </section>
@@ -117,12 +117,12 @@ watch(activeIndex, () => {
                 <section id="about" class="h-fit px-6 sm:px-12 lg:px-16">
                     <h2 class="pt-[60px] pb-6 text-xl lg:text-[28px] lg:leading-[34px] font-bold">About</h2>
                       <p class="mt-3 lg:mt-9 font-normal text-sm leading-5 lg:text-xl lg:leading-8">
-                        <i>Whispers and Echoes</i> examines the personal struggles of individuals navigating the societal pressure to maintain "face," a concept deeply rooted in the preservation of honour and reputation. The artworks reveal the profound effects of unspoken emotions and the heavy toll of concealing inner turmoil to conform to external expectations.
+                        <i>Unseen and Unspoken</i> examines the personal struggles of individuals navigating the societal pressure to maintain "face," a concept deeply rooted in the preservation of honour and reputation. The artworks reveal the profound effects of unspoken emotions and the heavy toll of concealing inner turmoil to conform to external expectations.
                       </p>
                     <p class="pb-[60px] font-normal text-sm sm:text-base leading-5 sm:leading-6 lg:leading-8">
                     </p>
                 </section>
-                <div v-for="(artist,index) in whispersAndEchoesArray" :key="index">
+                <div v-for="(artist,index) in unseenAndUnspokenArray" :key="index">
                     <!-- Quote of the Topic -->
                     <section :id="`artist_${index}`" class="bg-bitten h-[calc(100vh-89px)] w-screen bg-cover" :style="artist.quote_bg_url ? { backgroundImage: 'url(' + artist.quote_bg_url + ')' } : {}">
                         <div class="h-full flex flex-col items-center justify-center lg:px-64 md:px-32 px-6 bg-black/70">
@@ -207,7 +207,7 @@ watch(activeIndex, () => {
                     <p class="text-xl lg:text-2xl font-bold mb-6 lg:mb-12 mt-2">Continue To</p>
                     <div class="flex flex-col lg:flex-row">
                         <div class="bg-url-1 w-full h-60 lg:w-1/3 lg:h-[30rem] bg-top bg-cover">
-                            <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
+                            <a href="/exhibitions/interwoven-identities/roots-and-reconciliation">
                              
                                 <div class="backdrop-brightness-50 lg:backdrop-brightness-100 w-full h-full flex items-center md:transition-all md:ease-in md:ease-out md:duration-300 lg:hover:backdrop-brightness-50 group">
                                     <p class="text-center mx-auto text-ivory font-extralight text-2xl lg:text-4xl  lg:leading-[44px]  lg:transition-all lg:ease-in lg:ease-out lg:duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">ROOTS AND <span class="inline lg:block">RECONCILIATION</span></p>

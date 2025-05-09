@@ -74,7 +74,9 @@ function onIntersection(entry, index) {
                 <h1 class="mt-1 text-3xl lg:text-4xl font-medium text-left">Intersectionality in Asian Mental Health</h1>
                 <p class="text-base font-normal mt-3">May 2025</p>
                 <p class="text-2xl mt-12 mb-6">
-                    MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">Interwoven Identities: Intersectionality in Asian Mental Health</span>, a group exhibition curated by Carol Chen, Shengyu Cai, and Emily Gong.
+                    MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">Interwoven Identities</span>,
+                  an online discourse group exhibition curated by Carol Chen, O-Sheng Cai, and Emily Gong, created by
+                  Zeng Lai and Michael Wang.
                 </p>
                 <div class="flex flex-col space-y-6 leading-6 text-left text-sm sm:text-base">
                     <p class="font-normal">
@@ -97,9 +99,9 @@ function onIntersection(entry, index) {
                     </a>
                 </div>
                 <div class="h-1/4 lg:h-1/4 w-full bg-center bg-cover group bg-url-2">
-                    <a href="/exhibitions/interwoven-identities/whispers-and-echoes">
+                    <a href="/exhibitions/interwoven-identities/unseen-and-unspoken">
                         <div class="w-full h-full flex justify-center items-center backdrop-brightness-50 lg:backdrop-brightness-100 lg:group-hover:backdrop-brightness-50 transition-all ease-in ease-out duration-300">
-                            <p class="text-ivory text-xl sm:text-2xl lg:text-3xl text-center font-extralight transition-all ease-in ease-out duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">Whispers and Echoes</p>
+                            <p class="text-ivory text-xl sm:text-2xl lg:text-3xl text-center font-extralight transition-all ease-in ease-out duration-300 lg:group-hover:opacity-100 lg:opacity-0 opacity-100 px-4 lg:px-8">Unseen and Unspoken</p>
                         </div>
                     </a>
                 </div>

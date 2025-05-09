@@ -111,8 +111,13 @@ export const BetweenTwoWorlds = {
         visible: true,
         artist_name: "Phuong Nguyen",
         ins_handle: ["@toomanyphuongnguyens"],
-        quote: 'By conceptualizing the image of a porcelain vase into a portrait of a person, the imagery of porcelain in fragments, with broken lines, and repairs using twine, become the fragments of a person who has been broken and reassembled.',
-        bio: 'Born and raised in Tkaronto (Toronto), Phuong Nguyen is a Tkaronto-based visual artist working in representational oil painting and experimental weaving. Nguyen uses these mediums to explore themes of Ornamentalism, Orientalism, and the relationship between exoticism and violence by referencing Orientalist scholarship, and  the aesthetics and history of Chinoiserie in relationship to South East Asian/Vietnamese femininity. Nguyen holds a BFA from OCAD University (2014).' +
+        quote: 'By conceptualizing the image of a porcelain vase into a portrait of a person, the imagery of porcelain ' +
+            'in fragments, with broken lines, and repairs using twine, become the fragments of a person who has been broken and reassembled.',
+        bio: 'Born and raised in Tkaronto (Toronto), Phuong Nguyen is a Tkaronto-based visual artist working in ' +
+            'representational oil painting and experimental weaving. Nguyen uses these mediums to explore themes of ' +
+            'Ornamentalism, Orientalism, and the relationship between exoticism and violence by referencing Orientalist ' +
+            'scholarship, and  the aesthetics and history of Chinoiserie in relationship to South East Asian/Vietnamese ' +
+            'femininity. Nguyen holds a BFA from OCAD University (2014).' +
             '\n\n' +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/toomanyphuongnguyens/?hl=en\">@toomanyphuongnguyens</a>",
         topic_name: "Roots and Reconciliation",
@@ -123,13 +128,27 @@ export const BetweenTwoWorlds = {
             "<em>A Loss of Radiance</em>\n" + 
             "<em>Gourd</em>\n" +
             "\n" +
-            "In a series of works, Nguyen explores the topics of “Intersectionality”, “Cultural Narratives and Representation”, and “Art and Mental Health”. By conceptualizing the image of a porcelain vase into a portrait of a person, the imagery of porcelain in fragments, with broken lines, and repairs using twine, become the fragments of a person who has been broken and reassembled. The perceived experiences of the Vietnamese diaspora in Canada is one that is synonymous with images of trauma and violence. The symbol of porcelain, an object that is both considered beautiful and exotic as well as commonplace, parallels the perception and treatment of southeast asian women in the West. She is an object of beauty as well as a site of violence in her objectification. \n" +
+            "In a series of works, Nguyen explores the topics of “Intersectionality”, “Cultural Narratives and " +
+            "Representation”, and “Art and Mental Health”. By conceptualizing the image of a porcelain vase into a " +
+            "portrait of a person, the imagery of porcelain in fragments, with broken lines, and repairs using twine, " +
+            "become the fragments of a person who has been broken and reassembled. The perceived experiences of the " +
+            "Vietnamese diaspora in Canada is one that is synonymous with images of trauma and violence. The symbol of " +
+            "porcelain, an object that is both considered beautiful and exotic as well as commonplace, parallels the " +
+            "perception and treatment of southeast asian women in the West. She is an object of beauty as well as a " +
+            "site of violence in her objectification. \n" +
             "\n" +
              "What does healing look like for this human-object? \n" +
              "\n" +
-             "The use of plastic twine (a household material commonly found in Vietnamese homes meant for fastening banana leaves in cultural cooking) in these works has been both a medium and a visual signifier for healing, repair, reassemblage, migration, and the formation of something new. \n" +
+             "The use of plastic twine (a household material commonly found in Vietnamese homes meant for fastening " +
+            "banana leaves in cultural cooking) in these works has been both a medium and a visual signifier for " +
+            "healing, repair, reassemblage, migration, and the formation of something new. \n" +
              "\n" +
-             "As a racialized artist of the Vietnamese diaspora, Nguyen learned about her culture second-hand from my refugee family and from North American sources. Self-tokenization has been used as a tool for social survival and self-discovery while also being a vessel for self-betrayal and self-objectification. Although Ornamentalism's “object turned person” is still peri-human- a racialized Other in Canadian society, Nguyen believes that it is a figure worth studying and conceptualizing in the artwork in an attempt to learn more about what it means to be a living yet dead “person-thing”. \n",
+             "As a racialized artist of the Vietnamese diaspora, Nguyen learned about her culture second-hand from her " +
+            "refugee family and from North American sources. Self-tokenization has been used as a tool for social " +
+            "survival and self-discovery while also being a vessel for self-betrayal and self-objectification. Although " +
+            "Ornamentalism's “object turned person” is still peri-human- a racialized Other in Canadian society, Nguyen " +
+            "believes that it is a figure worth studying and conceptualizing in the artwork in an attempt to learn more " +
+            "about what it means to be a living yet dead “person-thing”. \n",
         directory: '/assets/BetweenTwoWorlds/Phuong',
         artworks: {
             art1: {
@@ -163,19 +182,34 @@ export const BetweenTwoWorlds = {
         artist_name: "Reginald Balanga",
         ins_handle: ["@regie.xyz"],
         quote: '"I create imagery, encounters and interventions that portray the states of being temporary, in-between and out of place.”',
-        bio: 'Reginald Balanga is an interdisciplinary artist whose work reflects the emotional and physical journey of failures and the search for new beginnings. Through sculpture, installation, drawing, and photography, he creates vibrant imagery and unexpected encounters using mark-making, found objects, abstract forms and spatial interventions that portray the states of being temporary, in-between and out of place.' +
+        bio: 'Reginald Balanga is an interdisciplinary artist whose work reflects the emotional and physical journey of ' +
+            'failures and the search for new beginnings. Through sculpture, installation, drawing, and photography, he ' +
+            'creates vibrant imagery and unexpected encounters using mark-making, found objects, abstract forms and ' +
+            'spatial interventions that portray the states of being temporary, in-between and out of place.' +
             '\n\n' +
-            'A first-generation Filipino-Canadian, memories of his upbringing in the rural Philippines and his experiences in moving to Canada are the main threads that connect and drive his multifaceted artistic practice. Reginald studied illustration, art history and drawing & painting at OCAD University in Toronto, where he is currently based.' +
+            'A first-generation Filipino-Canadian, memories of his upbringing in the rural Philippines and his experiences ' +
+            'in moving to Canada are the main threads that connect and drive his multifaceted artistic practice. Reginald ' +
+            'studied illustration, art history and drawing & painting at OCAD University in Toronto, where he is currently ' +
+            'based.' +
             '\n\n' +
             "<a class=\"font-medium text-bitten/80 hover:text-bitten\" href=\"https://www.instagram.com/regie.xyz/?hl=en\">@regie.xyz</a>",
         topic_name: "Roots and Reconciliation",
         quote_bg_url: require("@/assets/BetweenTwoWorlds/Reginald/Imagined-Ricefields-3.jpeg"),
         collection_title: "Imagined Ricefields",
-        
         description:
-            "My work explores the complex journey and navigation between multiple worlds and the constant negotiation of identity in a foreign land. Imagined Ricefields is an imagined map of a rural farming village I’ve drawn based on memory. It’s about my severed personal history as a migrant and the struggle of finding a home and a sense of belonging away from my native country. Installed in cold and snowy landscapes, I show the dislocation I felt moving to a different part of the world. \n" +
+            "My work explores the complex journey and navigation between multiple worlds and the constant negotiation of " +
+            "identity in a foreign land. Imagined Ricefields is an imagined map of a rural farming village I’ve drawn " +
+            "based on memory. It’s about my severed personal history as a migrant and the struggle of finding a home and " +
+            "a sense of belonging away from my native country. Installed in cold and snowy landscapes, I show the " +
+            "dislocation I felt moving to a different part of the world. \n" +
              "\n" +
-             "Installed in a tree that’s falling over, it represents my disconnection with the land particularly with the flora. It’s a reminder of the typhoon that felled the century-old mango trees that destroyed my grandmother's ancestral house, right before I left the Philippines. \n",
+             "Installed in a tree that’s falling over, it represents my disconnection with the land particularly with " +
+            "the flora. It’s a reminder of the typhoon that felled the century-old mango trees that destroyed my " +
+            "grandmother's ancestral house, right before I left the Philippines. \n" +
+            "\n" +
+            "Installed on a bridge, it represents the struggle to connect the distance between my native country and my " +
+            "new country. My son Renard, who was only two years old during our move to Canada, is holding on to the " +
+            "painting in the photograph.",
         directory: '/assets/BetweenTwoWorlds/Reginald',
         artworks: {
             art1: {

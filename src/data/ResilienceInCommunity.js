@@ -221,7 +221,6 @@ export const ResilienceInCommunity = {
         topic_name: "Resilience in Community",
         quote_bg_url: require('@/assets/ResilienceInCommunity/Teresa/Mind-Full-Ness.jpg'),
         collection_title: "Mind-Full-Ness",
-        
         description: 
             "As a newcomer from Hong Kong, moving to Canada is like kayaking alone and navigating through turbulence to " +
             "an imaginary destination. I want to explore ‘Cultural Narratives and Representation’ and ‘Art and Mental " +
@@ -249,6 +248,18 @@ export const ResilienceInCommunity = {
                 medium: "Digital Video",
                 file_name: "https://www.youtube.com/embed/jYe9z_whYg0",
             },
+            // art2: {
+            //     name: "The Tree",
+            //     year: '2023',
+            //     medium: "Image",
+            //     file_name: require("@/assets/ResilienceInCommunity/Teresa/TheTree.jpg"),
+            // },
         },
+        // slides:[
+        //     {
+        //         image: require("@/assets/bg.svg"),
+        //         content:`<img src="${require("@/assets/ResilienceInCommunity/Teresa/TheTree.jpg")}" class="object-contain w-fit h-[500px] lg:h-screen"/>`,
+        //     },
+        // ],
     }
 }
