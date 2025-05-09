@@ -28,7 +28,7 @@
             </ol>
         </div>
     </div>
-    <small class="text-xs ml-4 lg:ml-12">© 2023 MANIFESTO SPACE. All rights reserved.</small>
+    <small class="text-xs ml-4 lg:ml-12">© 2025 MANIFESTO SPACE. All rights reserved.</small>
   </footer>
 </template>
 

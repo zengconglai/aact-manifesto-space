@@ -72,14 +72,14 @@ onMounted(() => {
                     <p class="text-xl md:text-2xl lg:text-3xl font-light tracking-wide" :style="{ opacity: titleLineOpacity, transition: 'opacity 800ms ease-in-out' }">
                         Intersectionality in Asian Mental Health
                     </p>
-                    <button @click="navigateWithFadeOut('/exhibitions/interwoven-identities')" 
+                    <button @click="navigateWithFadeOut('/exhibitions')" 
                             type="button" 
                             :style="{ opacity: buttonOpacity, transition: 'opacity 700ms ease-in' }" 
                             class="z-20 mt-6 md:mt-9 lg:mt-12 border border-ivory/80 px-6 py-2 md:py-4 text-ivory/100 
                                    bg-ivory/20 md:text-base text-small
                                    transition-all duration-300 ease-in-out
                                    hover:bg-ivory/30 hover:border-ivory hover:text-ivory">
-                        Explore Now
+                        Explore Exhibitions
                     </button>
                 </div>
             </div>
