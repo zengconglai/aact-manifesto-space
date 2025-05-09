@@ -1,4 +1,4 @@
-# aact-manifesto-space
+# aact-manifesto-space 
 
 ## Project setup
 ```
