@@ -75,7 +75,7 @@ function onIntersection(entry, index) {
                 <p class="text-base font-normal mt-3">May 2025</p>
                 <p class="text-2xl mt-12 mb-6">
                     MANIFESTO SPACE is thrilled to present <span class="font-semibold italic">Interwoven Identities</span>,
-                  an online discourse group exhibition curated by Carol Chen, O-Sheng Cai, and Emily Gong, created by
+                  an online discourse group exhibition curated by Carol Chen, Cai Sheng-yu, and Emily Gong, created by
                   Zeng Lai and Michael Wang.
                 </p>
                 <div class="flex flex-col space-y-6 leading-6 text-left text-sm sm:text-base">
