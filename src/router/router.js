@@ -70,7 +70,14 @@ const router = createRouter({
 			path:'/exhibitions/interwoven-identities/resilience-in-community',
 			component: ResilienceInCommunity
 		}
-	]
+	],
+	scrollBehavior(to, from, savedPosition) {
+		if (savedPosition) {
+			return savedPosition;
+		} else {
+			return { top: 0 };
+		}
+	}
 });
 
 export default router;

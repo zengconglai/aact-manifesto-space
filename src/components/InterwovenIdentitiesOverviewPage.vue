@@ -48,18 +48,14 @@ function onIntersection(entry, index) {
                 </div>
             </div>
             <!-- navigation -->
-            <div class="lg:hidden text-stone-500 text-sm flex justify-start items-center px-6 sm:px-12 lg:px-24">
-                <a href="/">
-                    Home
-                </a>
-                <span class="mx-3">/</span>
-                <a href="/exhibitions">
+            <div class="lg:hidden text-stone-500 text-sm flex justify-start items-center px-6 sm:px-12 lg:px-24 overflow-x-auto scrollbar-hide whitespace-nowrap">
+                <a href="/exhibitions" class="hover:text-stone-900">
                     Exhibitions
                 </a>
                 <span class="mx-3">/</span>
-                <a href="/exhibitions/interwoven-identities">
+                <button disabled class="text-stone-600">
                     Interwoven Identities
-                </a>
+                </button>
             </div>
             <ul class="mx-6 sm:mx-12 lg:mx-24 lg:hidden t-0 border-b border-stone-600 flex space-x-3 overflow-x-auto max-w-screen text-sm">
                 <li><a href="#about" class="nav-item inline-block whitespace-nowrap text-stone-600" :class="{'font-semibold text-stone-800': activeIndex == 0, 'text-stone-500': activeIndex != 0 }">About</a></li>

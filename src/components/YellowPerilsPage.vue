@@ -17,9 +17,13 @@ const contentOpacity = ref(0);
 
 onMounted(() => {
     const aboutSection = document.getElementById("about");
-    const sectionsSection = document.getElementById("sections");
     startObserving(aboutSection, 0, onIntersection);
-    startObserving(sectionsSection, 1, onIntersection);
+
+    // Set up observers for artist sections
+    const artistSections = document.querySelectorAll('[id^="artist_"]');
+    artistSections.forEach((section, index) => {
+        startObserving(section, index + 1, onIntersection);
+    });
 
     const offset = 88;
     const scroll = new SmoothScroll('a[href*="#"]', {
@@ -77,12 +81,12 @@ watch(activeIndex, () => {
                     current-section="Yellow Perils"
                 />
             </div>
-            <div class="lg:hidden flex items-center justify-start w-full text-stone-700 text-sm">
-                <a href="/" class="hover:text-stone-900">
-                    Home
+            <div class="lg:hidden flex items-center justify-start w-full text-stone-500 text-sm overflow-x-auto scrollbar-hide whitespace-nowrap">
+                <a href="/exhibitions" class="hover:text-stone-900">
+                    Exhibitions
                 </a>
                 <p class="mx-2">/</p>
-                <a href="/exhibitions" class="hover:text-stone-900">
+                <a href="/exhibitions/the-bitten-peach" class="hover:text-stone-900">
                     The Bitten Peach
                 </a>
                 <p class="mx-2">/</p>
