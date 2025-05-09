@@ -1,8 +1,7 @@
-
 <template class="absolute top-0 right-0">
   <div class="flex justify-end item-start p-4 z-40">
     <Menu as="div" class="relative inline-block text-left">
-      <MenuButton class="">
+      <MenuButton class="transition-colors duration-300 hover:text-[#A21A08]">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-8 lg:h-8">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -22,7 +21,7 @@
             <MenuItem v-slot="{ active }">
               <a
                 :class="[
-                  active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
+                  active ? 'bg-stone-600/40 text-ivory/100' : 'text-stone-800',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]" href="/"
               >
@@ -32,27 +31,17 @@
             <MenuItem v-slot="{ active }">
               <a
                 :class="[
-                  active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
+                  active ? 'bg-stone-600/40 text-ivory/100' : 'text-stone-800',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]" href="/exhibitions"
               >
                 Exhibitions
               </a>
             </MenuItem>
-<!--             <MenuItem v-slot="{ active }">
-              <a
-                :class="[
-                  active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
-                  'group flex w-full items-center rounded-md px-2 py-2 text-sm',
-                ]" href="/artists"
-              >
-                Artists
-              </a>
-            </MenuItem> -->
             <MenuItem v-slot="{ active }">
               <a
                 :class="[
-                  active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
+                  active ? 'bg-stone-600/40 text-ivory/100' : 'text-stone-800',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]" href="/about-us"
               >
@@ -62,9 +51,12 @@
             <MenuItem v-slot="{ active }">
               <a
                 :class="[
-                  active ? 'bg-stone-600/40 text-ivory/80' : 'text-stone-800',
+                  active ? 'bg-stone-600/40 text-ivory/100' : 'text-stone-800',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
-                ]" href="https://pages.donately.com/asianartsandculturetrust/form/frm_0f49dac5877d"
+                ]" 
+                href="https://pages.donately.com/asianartsandculturetrust/form/frm_0f49dac5877d"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Donate
               </a>

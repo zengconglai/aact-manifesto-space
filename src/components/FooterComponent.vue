@@ -5,7 +5,10 @@
             <ol role="list" class="flex items-center">
                 <li v-for="page in pages" :key="page.name">
                     <div class="flex items-center">
-                        <a :href="page.href" class="text-xs md:text-sm">{{ page.name }}</a>
+                        <a :href="page.href" 
+                           :target="page.href.startsWith('http') ? '_blank' : '_self'"
+                           :rel="page.href.startsWith('http') ? 'noopener noreferrer' : ''"
+                           class="text-xs md:text-sm transition-all duration-300 hover:text-[#A21A08] hover:underline decoration-1 underline-offset-4">{{ page.name }}</a>
                         <p class="mx-2">/</p>
                     </div>
                 </li>
@@ -15,7 +18,10 @@
             <ol role="list" class="ml-4 lg:ml-0 flex items-center justify-start lg:justify-end">
                 <li v-for="media in medias" :key="media.name">
                     <div class="flex items-center">
-                        <a :href="media.href" class="text-xs md:text-sm">{{ media.name }}</a>
+                        <a :href="media.href" 
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="text-xs md:text-sm transition-all duration-300 hover:text-[#A21A08] hover:underline decoration-1 underline-offset-4">{{ media.name }}</a>
                         <p class="mx-2">/</p>
                     </div>
                 </li>
